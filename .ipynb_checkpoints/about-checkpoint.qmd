@@ -1,5 +1,31 @@
 ---
-title: "About"
+title: "Dr. Saif Ali Khan"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourprofile
+    - icon: envelope
+      text: Email
+      href: mailto:you@example.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/profsaif
 ---
 
-About this site
+## Bio
+
+Write 2-3 sentences about who you are, your role, and your research/teaching focus.
+
+## Education
+
+- **PhD**, Your Field, University Name, Year
+- **MSc**, Your Field, University Name, Year
+
+## Research Interests
+
+- Interest 1
+- Interest 2
+- Interest 3
