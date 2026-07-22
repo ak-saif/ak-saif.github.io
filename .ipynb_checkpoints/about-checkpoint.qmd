@@ -1,31 +1,54 @@
 ---
 title: "Dr. Saif Ali Khan"
-image: profile.jpg
+image: picture1.jpg
 about:
   template: trestles
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/yourprofile
+      href: https://www.linkedin.com/in/dsaifstats/
     - icon: envelope
       text: Email
-      href: mailto:you@example.com
+      href: mailto:profsaifstats@gmail.com
     - icon: github
       text: GitHub
       href: https://github.com/profsaif
+    - icon: Google Scholar
+      text: G-scholar
+      href: https://scholar.google.com/citations?user=3isZscUAAAAJ&hl=en&authuser=2
+    - icon: ORCiD
+      text: ORCid
+      href: https://orcid.org/0000-0003-1722-728X
+    - icon: ResearchGate
+      text: R-Gate
+      href: https://www.researchgate.net/profile/Saif-Ali-Khan-7?ev=hdr_xprf
+    - icon: Web of Science
+      text: WoS
+      href: https://www.webofscience.com/wos/author/record/QJW-3591-2026
+    - icon: Scopus
+      text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=58719727500
 ---
 
 ## Bio
 
-Write 2-3 sentences about who you are, your role, and your research/teaching focus.
+Hello and welcome!
+I am Dr. Saif, an Assistant Professor at Manipal Academy of Higher Education (MAHE), Manipal, India. My research focuses on statistical and mathematical modeling with applications in infectious disease dynamics, epidemiology, and data-driven prediction. I work at the intersection of classical statistical methods, time series analysis, and machine learning to better understand complex real-world phenomena.  
+I completed my Ph.D. in Statistics from Babasaheb Bhimrao Ambedkar University, Lucknow, in 2025, where my doctoral research focused on developing statistical and machine learning models for infectious disease prediction and analysis. Prior to that, I obtained both my M.Sc. (2020) and B.Sc. (Hons.) (2018) in Statistics from Aligarh Muslim University, Aligarh, India.
+On this website, you can learn more about my research, publications, teaching activities, and ongoing projects. I am always interested in academic collaborations in statistics, data science, and epidemiological modeling.
+Thank you for visiting!
 
 ## Education
 
-- **PhD**, Your Field, University Name, Year
-- **MSc**, Your Field, University Name, Year
+- **PhD**, Computational Statistics/Predictive Analysis/, Babasaheb Bhimrao Ambedkar University, 2025
+- **MSc**, Statistics, Aligarh Muslim Univerity, 2020
+- **BSc (Hons.)**, Statistics, Aligarh Muslim Univerity, 2018
 
 ## Research Interests
 
-- Interest 1
-- Interest 2
-- Interest 3
+- Mathematical Modeling
+- Bayesian Statistics
+- Predictive Analysis
+- Data Science
+
+image: p2.jpg
