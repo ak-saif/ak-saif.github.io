@@ -1,5 +1,5 @@
 ---
-title: "Dr. Saif Ali Khan"
+title: "Statistics Demystified"
 listing:
   contents: posts
   sort: "date desc"
