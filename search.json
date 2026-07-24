@@ -1,65 +1,100 @@
 [
   {
+    "objectID": "videos.html",
+    "href": "videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Only two videos on the channel so far — more will be added over time.\n\nVideo 1 \n\n\n\n\n\n\nVideo 2"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Dr. Saif Ali Khan",
     "section": "",
-    "text": "Hello and welcome! I am Dr. Saif, an Assistant Professor at Manipal Academy of Higher Education (MAHE), Manipal, India. My research focuses on statistical and mathematical modeling with applications in infectious disease dynamics, epidemiology, and data-driven prediction. I work at the intersection of classical statistical methods, time series analysis, and machine learning to better understand complex real-world phenomena.\nI completed my Ph.D. in Statistics from Babasaheb Bhimrao Ambedkar University, Lucknow, in 2025, where my doctoral research focused on developing statistical and machine learning models for infectious disease prediction and analysis. Prior to that, I obtained both my M.Sc. (2020) and B.Sc. (Hons.) (2018) in Statistics from Aligarh Muslim University, Aligarh, India. On this website, you can learn more about my research, publications, teaching activities, and ongoing projects. I am always interested in academic collaborations in statistics, data science, and epidemiological modeling. Thank you for visiting!"
-  },
-  {
-    "objectID": "about.html#bio",
-    "href": "about.html#bio",
-    "title": "Dr. Saif Ali Khan",
-    "section": "",
-    "text": "Hello and welcome! I am Dr. Saif, an Assistant Professor at Manipal Academy of Higher Education (MAHE), Manipal, India. My research focuses on statistical and mathematical modeling with applications in infectious disease dynamics, epidemiology, and data-driven prediction. I work at the intersection of classical statistical methods, time series analysis, and machine learning to better understand complex real-world phenomena.\nI completed my Ph.D. in Statistics from Babasaheb Bhimrao Ambedkar University, Lucknow, in 2025, where my doctoral research focused on developing statistical and machine learning models for infectious disease prediction and analysis. Prior to that, I obtained both my M.Sc. (2020) and B.Sc. (Hons.) (2018) in Statistics from Aligarh Muslim University, Aligarh, India. On this website, you can learn more about my research, publications, teaching activities, and ongoing projects. I am always interested in academic collaborations in statistics, data science, and epidemiological modeling. Thank you for visiting!"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Dr. Saif Ali Khan",
-    "section": "Education",
-    "text": "Education\n\nPhD, Computational Statistics/Predictive Analysis/, Babasaheb Bhimrao Ambedkar University, 2025\nMSc, Statistics, Aligarh Muslim Univerity, 2020\nBSc (Hons.), Statistics, Aligarh Muslim Univerity, 2018"
-  },
-  {
-    "objectID": "about.html#research-interests",
-    "href": "about.html#research-interests",
-    "title": "Dr. Saif Ali Khan",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nMathematical Modeling\nBayesian Statistics\nPredictive Analysis\nData Science\n\nimage: p2.jpg"
-  },
-  {
-    "objectID": "Content.html",
-    "href": "Content.html",
-    "title": "Dr. Saif Ali Khan",
-    "section": "",
-    "text": "Hello and welcome! I am Dr. Saif, an Assistant Professor at Manipal Academy of Higher Education (MAHE), Manipal, India. My research focuses on statistical and mathematical modeling with applications in infectious disease dynamics, epidemiology, and data-driven prediction. I work at the intersection of classical statistical methods, time series analysis, and machine learning to better understand complex real-world phenomena.\nI completed my Ph.D. in Statistics from Babasaheb Bhimrao Ambedkar University, Lucknow, in 2025, where my doctoral research focused on developing statistical and machine learning models for infectious disease prediction and analysis. Prior to that, I obtained both my M.Sc. (2020) and B.Sc. (Hons.) (2018) in Statistics from Aligarh Muslim University, Aligarh, India. On this website, you can learn more about my research, publications, teaching activities, and ongoing projects. I am always interested in academic collaborations in statistics, data science, and epidemiological modeling. Thank you for visiting!"
-  },
-  {
-    "objectID": "Content.html#bio",
-    "href": "Content.html#bio",
-    "title": "Dr. Saif Ali Khan",
-    "section": "",
-    "text": "Hello and welcome! I am Dr. Saif, an Assistant Professor at Manipal Academy of Higher Education (MAHE), Manipal, India. My research focuses on statistical and mathematical modeling with applications in infectious disease dynamics, epidemiology, and data-driven prediction. I work at the intersection of classical statistical methods, time series analysis, and machine learning to better understand complex real-world phenomena.\nI completed my Ph.D. in Statistics from Babasaheb Bhimrao Ambedkar University, Lucknow, in 2025, where my doctoral research focused on developing statistical and machine learning models for infectious disease prediction and analysis. Prior to that, I obtained both my M.Sc. (2020) and B.Sc. (Hons.) (2018) in Statistics from Aligarh Muslim University, Aligarh, India. On this website, you can learn more about my research, publications, teaching activities, and ongoing projects. I am always interested in academic collaborations in statistics, data science, and epidemiological modeling. Thank you for visiting!"
-  },
-  {
-    "objectID": "Content.html#education",
-    "href": "Content.html#education",
-    "title": "Dr. Saif Ali Khan",
-    "section": "Education",
-    "text": "Education\n\nPhD, Computational Statistics/Predictive Analysis/, Babasaheb Bhimrao Ambedkar University, 2025\nMSc, Statistics, Aligarh Muslim Univerity, 2020\nBSc (Hons.), Statistics, Aligarh Muslim Univerity, 2018"
-  },
-  {
-    "objectID": "Content.html#research-interests",
-    "href": "Content.html#research-interests",
-    "title": "Dr. Saif Ali Khan",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nMathematical Modeling\nBayesian Statistics\nPredictive Analysis\nData Science\n\nimage: p2.jpg"
+    "text": "I model how infectious diseases spread — using statistics and machine learning to see outbreaks coming.\n\nI work at the intersection of statistical modeling and machine learning, focused on infectious disease dynamics — from dengue and monkeypox to lumpy skin disease and COVID-19. My Ph.D. examined disease spread through compartmental, time-series, and ML approaches, and I continue that work applying predictive analytics to public health and agricultural forecasting problems.\n\nResearch interests\n\nData Science & Predictive Analytics Machine Learning Time Series Analysis Statistical Modeling Mathematical Epidemiology Python (Pandas, Scikit-learn, Statsmodels) Data Visualization (Matplotlib, Seaborn) Excel Jamovi\n\n\n\nQualifications\n\nGATE — Data Science & AI (2024) O Level — NIELIT (2022)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Statistics Demystified",
+    "title": "Notes & Writing",
     "section": "",
-    "text": "Welcome to My Site\n\n\n\nintroduction\n\n\n\n\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Notes, articles, and commentary — new posts appear here automatically, newest first.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/egg-production-2025.html",
+    "href": "publications/egg-production-2025.html",
+    "title": "Machine Learning Models for Analysis and Prediction of Optimal Egg Production",
+    "section": "",
+    "text": "Quality & Quantity, 60, 1705\n\nDOI: 10.1007/s11135-025-02309-1\nMachine learning approaches applied to analyze and predict optimal egg production."
+  },
+  {
+    "objectID": "publications/socioeconomic-clustering-2026.html",
+    "href": "publications/socioeconomic-clustering-2026.html",
+    "title": "Decoding Socio-economic Disparities in Uttar Pradesh: A Spatio-temporal Analysis Using Wroclaw Taxonomy and K-means Unsupervised Machine Learning Clustering",
+    "section": "",
+    "text": "Mathematical Population Studies, 1–23\n\nDOI: 10.1080/08898480.2025.2612641\nApplies Wroclaw Taxonomy and K-means clustering to map spatio-temporal socio-economic disparities across Uttar Pradesh."
+  },
+  {
+    "objectID": "publications/monkeypox-2023.html",
+    "href": "publications/monkeypox-2023.html",
+    "title": "Modeling Global Monkeypox Infection Spread Data: A Comparative Study of Time Series Regression and Machine Learning Models",
+    "section": "",
+    "text": "Current Microbiology, 81(1), Article 15\n\nDOI: 10.1007/s00284-023-03531-6\nA comparative study of time series regression and machine learning models applied to global monkeypox spread data."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks & Presentations",
+    "section": "",
+    "text": "2024\n\nPredicting Lumpy Skin Disease Outbreak: A Comparative Study of Machine Learning Across Affected Countries\nInternational Conference on Advances in Geometry, Algebra, Analysis and Artificial Intelligence (ICAGAAAI-2024), Integral University, Lucknow · Nov 7–9, 2024\nWorkshop on Computational Oncology (participant)\nDepartment of Mathematics, Indian Institute of Technology Patna · April 19–21, 2024\n\n2023\n\nA Comparative Study of Trends for Dengue Outbreaks and Mortality in India Using Different Machine Learning Models\nInternational Conference on Innovations in Science, Management and Technology (ICISMT), Chaudhary Devi Lal University, Sirsa · Aug 17–18, 2023"
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Background",
+    "section": "",
+    "text": "Education\n\n\n\n\n\n\n\n\nJul 2022 – Nov 2025\nPh.D. in Statistics\nBabasaheb Bhimrao Ambedkar University, Lucknow\nThesis: Infectious Disease Modeling Through Distinct Statistical & Machine Learning Techniques\n\n\n2018 – 2020\nM.Sc. in Statistics\nAligarh Muslim University, Aligarh · GPA 7.69/10\nDissertation: Image Classification of Skin Lesion\n\n\n2015 – 2018\nB.Sc. (Hons) in Statistics\nAligarh Muslim University, Aligarh · GPA 7.84/10\nDissertation: Effectiveness of Choice-Based Credit System (Survey Report)\n\n\n\n\nExperience\n\n\n\n\n\n\n\n\nNov 2025 – present\nAssistant Professor\nDirectorate of Online Education, Manipal Academy of Higher Education, Manipal\n\n\nJun 2023 – Oct 2024\nResearch Assistant (UPCST-funded project)\nDepartment of Statistics, BBAU, Lucknow\nProject: Statistical modeling for COVID-19 spread using different approaches. Designed compartmental and statistical models for COVID-19 transmission; applied time series and ML models for prediction."
+  },
+  {
+    "objectID": "publications/lumpy-skin-disease-2026.html",
+    "href": "publications/lumpy-skin-disease-2026.html",
+    "title": "Analyzing Global Threat of Lumpy Skin Disease Virus Infection: A Comparative Study of a Time Series Model and Machine Learning Models Across 10 High-Risk Countries",
+    "section": "",
+    "text": "Current Microbiology, 83, 389\n\nDOI: 10.1007/s00284-026-04982-3\nCompares time series and machine learning models for forecasting lumpy skin disease virus spread across ten high-risk countries."
+  },
+  {
+    "objectID": "publications/omicron-2024.html",
+    "href": "publications/omicron-2024.html",
+    "title": "Taking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces",
+    "section": "",
+    "text": "Spatial and Spatio-Temporal Epidemiology, 48, 100634\n\nDOI: 10.1016/j.sste.2024.100634\nCombines machine learning, compartmental, and time series models to study SARS-CoV-2 Omicron spread across Indian provinces."
+  },
+  {
+    "objectID": "publications/apple-forecasting-2025.html",
+    "href": "publications/apple-forecasting-2025.html",
+    "title": "Traditional and Machine Learning Models for Forecasting Apple Production and Cultivation Area",
+    "section": "",
+    "text": "Applied Fruit Science, 67, 402\n\nDOI: 10.1007/s10341-025-01639-6\nCompares traditional statistical and machine learning approaches for forecasting apple production and cultivation area."
+  },
+  {
+    "objectID": "publications/dengue-2026.html",
+    "href": "publications/dengue-2026.html",
+    "title": "A Comparative State-wise Assessment of Dengue Incidence and Deaths in India Using Annual Surveillance Data",
+    "section": "",
+    "text": "Discover Public Health, 23, article 981\n\nDOI: 10.1186/s12982-026-02396-x\nA state-wise comparative assessment of dengue incidence and mortality across India using annual surveillance data."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Click any title for the abstract and DOI. Use the categories on the right to filter by topic.\n\n\n\n\n\n\n\n\n\nDecoding Socio-economic Disparities in Uttar Pradesh: A Spatio-temporal Analysis Using Wroclaw Taxonomy and K-means Unsupervised Machine Learning Clustering\n\n\n\nclustering\n\nsocio-economic\n\nspatio-temporal\n\n\n\n\n\n\n2026\n\n\nSingh, V., Hajare, G.C., Khan, S.A., Kumari, A.\n\n\n\n\n\n\n\nAnalyzing Global Threat of Lumpy Skin Disease Virus Infection: A Comparative Study of a Time Series Model and Machine Learning Models Across 10 High-Risk Countries\n\n\n\nlumpy skin disease\n\ntime series\n\nmachine learning\n\n\n\n\n\n\n2026\n\n\nKhan, S.A., Yadav, S.K., Akhter, Y.\n\n\n\n\n\n\n\nA Comparative State-wise Assessment of Dengue Incidence and Deaths in India Using Annual Surveillance Data\n\n\n\ndengue\n\nsurveillance\n\nepidemiology\n\n\n\n\n\n\n2026\n\n\nKhan, S.A., Yadav, S.K., Akhter, Y.\n\n\n\n\n\n\n\nMachine Learning Models for Analysis and Prediction of Optimal Egg Production\n\n\n\nmachine learning\n\nagriculture\n\nprediction\n\n\n\n\n\n\n2025\n\n\nKhan, S.A., Shukla, A.K., Yadav, S.K., Vishwakarma, G.K.\n\n\n\n\n\n\n\nTraditional and Machine Learning Models for Forecasting Apple Production and Cultivation Area\n\n\n\nforecasting\n\nmachine learning\n\nagriculture\n\n\n\n\n\n\n2025\n\n\nKhan, S.A., Sharma, D.K., Shukla, A.K., Verma, M.R., Sharma, A., Yadav, S.K.\n\n\n\n\n\n\n\nTaking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces\n\n\n\ncovid-19\n\nepidemiology\n\ntime series\n\n\n\n\n\n\n2024\n\n\nYadav, S.K., Khan, S.A., Tiwari, M., Kumar, A., Kumar, V., Akhter, Y.\n\n\n\n\n\n\n\nModeling Global Monkeypox Infection Spread Data: A Comparative Study of Time Series Regression and Machine Learning Models\n\n\n\nmonkeypox\n\ntime series\n\nmachine learning\n\n\n\n\n\n\n2023\n\n\nSingh, V., Khan, S.A., Yadav, S.K., Akhter, Y.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Articles, notes, and commentary. New posts appear here automatically — see posts/README.md for how to add one.\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
