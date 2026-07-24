@@ -1,0 +1,62 @@
+---
+title: "Background"
+---
+
+::: {.eyebrow}
+Education
+::: 
+
+```{=html}
+<table class="timeline">
+<tr>
+  <td class="years">Jul 2022 – Nov 2025</td>
+  <td>
+    <strong>Ph.D. in Statistics</strong><br>
+    <span class="place">Babasaheb Bhimrao Ambedkar University, Lucknow</span><br>
+    <span class="detail">Thesis: Infectious Disease Modeling Through Distinct Statistical &amp; Machine Learning Techniques</span>
+  </td>
+</tr>
+<tr>
+  <td class="years">2018 – 2020</td>
+  <td>
+    <strong>M.Sc. in Statistics</strong><br>
+    <span class="place">Aligarh Muslim University, Aligarh · GPA 7.69/10</span><br>
+    <span class="detail">Dissertation: Image Classification of Skin Lesion</span>
+  </td>
+</tr>
+<tr>
+  <td class="years">2015 – 2018</td>
+  <td>
+    <strong>B.Sc. (Hons) in Statistics</strong><br>
+    <span class="place">Aligarh Muslim University, Aligarh · GPA 7.84/10</span><br>
+    <span class="detail">Dissertation: Effectiveness of Choice-Based Credit System (Survey Report)</span>
+  </td>
+</tr>
+</table>
+```
+
+::: {.eyebrow style="margin-top:2.5rem;"}
+Experience
+:::
+
+```{=html}
+<table class="timeline">
+<tr>
+  <td class="years">Nov 2025 – present</td>
+  <td>
+    <strong>Assistant Professor</strong><br>
+    <span class="place">Directorate of Online Education, Manipal Academy of Higher Education, Manipal</span>
+  </td>
+</tr>
+<tr>
+  <td class="years">Jun 2023 – Oct 2024</td>
+  <td>
+    <strong>Research Assistant</strong> (UPCST-funded project)<br>
+    <span class="place">Department of Statistics, BBAU, Lucknow</span><br>
+    <span class="detail">Project: Statistical modeling for COVID-19 spread using different approaches.
+    Designed compartmental and statistical models for COVID-19 transmission; applied time series
+    and ML models for prediction.</span>
+  </td>
+</tr>
+</table>
+```

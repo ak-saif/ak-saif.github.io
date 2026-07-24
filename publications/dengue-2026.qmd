@@ -1,0 +1,15 @@
+---
+title: "A Comparative State-wise Assessment of Dengue Incidence and Deaths in India Using Annual Surveillance Data"
+author: "Khan, S.A., Yadav, S.K., Akhter, Y."
+date: 2026-01-01
+categories: [dengue, surveillance, epidemiology]
+---
+
+::: {.venue-line}
+Discover Public Health, 23, article 981
+:::
+
+**DOI:** [10.1186/s12982-026-02396-x](https://doi.org/10.1186/s12982-026-02396-x)
+
+A state-wise comparative assessment of dengue incidence and mortality across India using
+annual surveillance data.

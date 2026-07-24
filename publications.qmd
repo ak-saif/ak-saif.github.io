@@ -1,0 +1,14 @@
+---
+title: "Publications"
+listing:
+  contents: publications
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [title, author, date, categories]
+  date-format: "YYYY"
+  feed: false
+page-layout: full
+---
+
+Click any title for the abstract and DOI. Use the categories on the right to filter by topic.

@@ -1,0 +1,15 @@
+---
+title: "Taking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces"
+author: "Yadav, S.K., Khan, S.A., Tiwari, M., Kumar, A., Kumar, V., Akhter, Y."
+date: 2024-01-01
+categories: [covid-19, epidemiology, time series]
+---
+
+::: {.venue-line}
+Spatial and Spatio-Temporal Epidemiology, 48, 100634
+:::
+
+**DOI:** [10.1016/j.sste.2024.100634](https://doi.org/10.1016/j.sste.2024.100634)
+
+Combines machine learning, compartmental, and time series models to study SARS-CoV-2 Omicron
+spread across Indian provinces.

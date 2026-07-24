@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/socioeconomic-clustering-2026.html",
+      "/publications/lumpy-skin-disease-2026.html",
+      "/publications/dengue-2026.html",
+      "/publications/egg-production-2025.html",
+      "/publications/apple-forecasting-2025.html",
+      "/publications/omicron-2024.html",
+      "/publications/monkeypox-2023.html"
+    ]
+  },
+  {
+    "listing": "/writing.html",
+    "items": []
+  }
+]

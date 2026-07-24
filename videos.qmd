@@ -1,0 +1,21 @@
+---
+title: "Videos"
+---
+
+Only two videos on the channel so far — more will be added over time.
+
+::: {.video-card}
+### Video 1  <!-- TODO: replace with the real title -->
+
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/y2_ywIawXg8" title="YouTube video" allowfullscreen></iframe>
+:::
+:::
+
+::: {.video-card}
+### Video 2  <!-- TODO: replace with the real title -->
+
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/ymqG-HBjlXk" title="YouTube video" allowfullscreen></iframe>
+:::
+:::

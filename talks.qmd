@@ -1,0 +1,31 @@
+---
+title: "Talks & Presentations"
+---
+
+::: {.eyebrow}
+2024
+:::
+
+**Predicting Lumpy Skin Disease Outbreak: A Comparative Study of Machine Learning Across Affected Countries**\
+International Conference on Advances in Geometry, Algebra, Analysis and Artificial Intelligence
+(ICAGAAAI-2024), Integral University, Lucknow · Nov 7–9, 2024
+
+**Workshop on Computational Oncology** (participant)\
+Department of Mathematics, Indian Institute of Technology Patna · April 19–21, 2024
+
+::: {.eyebrow style="margin-top:2rem;"}
+2023
+:::
+
+**A Comparative Study of Trends for Dengue Outbreaks and Mortality in India Using Different
+Machine Learning Models**\
+International Conference on Innovations in Science, Management and Technology (ICISMT),
+Chaudhary Devi Lal University, Sirsa · Aug 17–18, 2023
+
+<!--
+To add a recorded talk with a video embed, use:
+
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+:::
+-->

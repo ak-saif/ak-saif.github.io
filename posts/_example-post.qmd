@@ -1,0 +1,9 @@
+---
+title: "Example post — copy this file to get started"
+date: 2026-01-01
+categories: [example]
+draft: true
+---
+
+Delete this front matter comment and write your real post here. Remove `draft: true`
+once you're ready to publish it, then re-render the site.

@@ -1,0 +1,12 @@
+---
+title: "Writing"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: false
+  feed: false
+---
+
+Articles, notes, and commentary. New posts appear here automatically — see `posts/README.md`
+for how to add one.

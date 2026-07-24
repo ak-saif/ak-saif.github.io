@@ -1,54 +1,63 @@
 ---
 title: "Dr. Saif Ali Khan"
-image: picture1.jpg
+subtitle: "Assistant Professor, Directorate of Online Education · Manipal Academy of Higher Education, Manipal"
+image: photo.jpg
 about:
   template: trestles
+  image-shape: round
+  image-width: 15em
   links:
+    - icon: envelope
+      text: Email
+      href: "mailto:you@university.edu"     # replace with your real email
+    - icon: twitter-x
+      text: X (Twitter)
+      href: https://x.com/dsaifstats
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/dsaifstats/
-    - icon: envelope
-      text: Email
-      href: mailto:profsaifstats@gmail.com
     - icon: github
       text: GitHub
-      href: https://github.com/profsaif
-    - icon: Google Scholar
-      text: G-scholar
-      href: https://scholar.google.com/citations?user=3isZscUAAAAJ&hl=en&authuser=2
-    - icon: ORCiD
-      text: ORCid
+      href: https://github.com/ak-saif
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=3isZscUAAAAJ&hl=en&authuser=2"
+    - icon: person-vcard
+      text: ORCID
       href: https://orcid.org/0000-0003-1722-728X
-    - icon: ResearchGate
-      text: R-Gate
-      href: https://www.researchgate.net/profile/Saif-Ali-Khan-7?ev=hdr_xprf
-    - icon: Web of Science
-      text: WoS
+    - icon: diagram-3
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Saif-Ali-Khan-7
+    - icon: graph-up
+      text: Web of Science
       href: https://www.webofscience.com/wos/author/record/QJW-3591-2026
-    - icon: Scopus
+    - icon: search
       text: Scopus
-      href: https://www.scopus.com/authid/detail.uri?authorId=58719727500
+      href: "https://www.scopus.com/authid/detail.uri?authorId=58719727500"
+    - icon: file-earmark-person
+      text: CV
+      href: CV_with_publication.docx
 ---
 
-## Bio
+::: {.tagline}
+I model how infectious diseases spread — using statistics and machine learning to see outbreaks coming.
+:::
 
-Hello and welcome!
-I am Dr. Saif, an Assistant Professor at Manipal Academy of Higher Education (MAHE), Manipal, India. My research focuses on statistical and mathematical modeling with applications in infectious disease dynamics, epidemiology, and data-driven prediction. I work at the intersection of classical statistical methods, time series analysis, and machine learning to better understand complex real-world phenomena.  
-I completed my Ph.D. in Statistics from Babasaheb Bhimrao Ambedkar University, Lucknow, in 2025, where my doctoral research focused on developing statistical and machine learning models for infectious disease prediction and analysis. Prior to that, I obtained both my M.Sc. (2020) and B.Sc. (Hons.) (2018) in Statistics from Aligarh Muslim University, Aligarh, India.
-On this website, you can learn more about my research, publications, teaching activities, and ongoing projects. I am always interested in academic collaborations in statistics, data science, and epidemiological modeling.
-Thank you for visiting!
+I work at the intersection of statistical modeling and machine learning, focused on infectious
+disease dynamics — from dengue and monkeypox to lumpy skin disease and COVID-19. My Ph.D.
+examined disease spread through compartmental, time-series, and ML approaches, and I continue
+that work applying predictive analytics to public health and agricultural forecasting problems.
 
-## Education
+### Research interests
 
-- **PhD**, Computational Statistics/Predictive Analysis/, Babasaheb Bhimrao Ambedkar University, 2025
-- **MSc**, Statistics, Aligarh Muslim Univerity, 2020
-- **BSc (Hons.)**, Statistics, Aligarh Muslim Univerity, 2018
+::: {.skills}
+[Data Science & Predictive Analytics]{.chip} [Machine Learning]{.chip} [Time Series Analysis]{.chip}
+[Statistical Modeling]{.chip} [Mathematical Epidemiology]{.chip} [Python (Pandas, Scikit-learn, Statsmodels)]{.chip}
+[Data Visualization (Matplotlib, Seaborn)]{.chip} [Excel]{.chip} [Jamovi]{.chip}
+:::
 
-## Research Interests
+### Qualifications
 
-- Mathematical Modeling
-- Bayesian Statistics
-- Predictive Analysis
-- Data Science
-
-image: p2.jpg
+::: {.skills}
+[GATE — Data Science & AI (2024)]{.chip} [O Level — NIELIT (2022)]{.chip}
+:::

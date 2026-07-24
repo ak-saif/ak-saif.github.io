@@ -1,16 +1,47 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Statistics Demystified"
+  title: "Dr. Saif Ali Khan"
+  site-url: "https://ak-saif.github.io"
+  description: "Assistant Professor — infectious disease modeling with statistics & machine learning"
   navbar:
+    logo: logo.png
+    background: "#16213E"
+    foreground: "#F5F5F2"
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
+      - href: background.qmd
+        text: Background
+      - href: publications.qmd
+        text: Publications
+      - href: talks.qmd
+        text: Talks
+      - href: videos.qmd
+        text: Videos
+    right:
+      - icon: twitter-x
+        href: https://x.com/dsaifstats
+        aria-label: X (Twitter)
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dsaifstats/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/ak-saif
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+        aria-label: RSS feed
+  page-footer:
+    center: "© Dr. Saif Ali Khan · built with Quarto"
+    border: false
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, styles.scss]
+    include-in-header: font-links.html
+    toc: false
+    grid:
+      body-width: 780px

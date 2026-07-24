@@ -1,0 +1,15 @@
+---
+title: "Modeling Global Monkeypox Infection Spread Data: A Comparative Study of Time Series Regression and Machine Learning Models"
+author: "Singh, V., Khan, S.A., Yadav, S.K., Akhter, Y."
+date: 2023-01-01
+categories: [monkeypox, time series, machine learning]
+---
+
+::: {.venue-line}
+Current Microbiology, 81(1), Article 15
+:::
+
+**DOI:** [10.1007/s00284-023-03531-6](https://doi.org/10.1007/s00284-023-03531-6)
+
+A comparative study of time series regression and machine learning models applied to global
+monkeypox spread data.

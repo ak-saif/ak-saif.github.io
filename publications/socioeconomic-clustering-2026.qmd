@@ -1,0 +1,15 @@
+---
+title: "Decoding Socio-economic Disparities in Uttar Pradesh: A Spatio-temporal Analysis Using Wroclaw Taxonomy and K-means Unsupervised Machine Learning Clustering"
+author: "Singh, V., Hajare, G.C., Khan, S.A., Kumari, A."
+date: 2026-01-03
+categories: [clustering, socio-economic, spatio-temporal]
+---
+
+::: {.venue-line}
+Mathematical Population Studies, 1–23
+:::
+
+**DOI:** [10.1080/08898480.2025.2612641](https://doi.org/10.1080/08898480.2025.2612641)
+
+Applies Wroclaw Taxonomy and K-means clustering to map spatio-temporal socio-economic
+disparities across Uttar Pradesh.

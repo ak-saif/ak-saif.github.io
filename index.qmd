@@ -1,12 +1,12 @@
 ---
-title: "Statistics Demystified"
+title: "Notes & Writing"
 listing:
   contents: posts
-  sort: "date desc"
   type: default
+  sort: "date desc"
   categories: true
-  sort-ui: false
-  filter-ui: false
+  feed: true
 page-layout: full
-title-block-banner: false
 ---
+
+Notes, articles, and commentary — new posts appear here automatically, newest first.

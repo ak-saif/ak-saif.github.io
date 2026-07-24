@@ -1,0 +1,15 @@
+---
+title: "Analyzing Global Threat of Lumpy Skin Disease Virus Infection: A Comparative Study of a Time Series Model and Machine Learning Models Across 10 High-Risk Countries"
+author: "Khan, S.A., Yadav, S.K., Akhter, Y."
+date: 2026-01-02
+categories: [lumpy skin disease, time series, machine learning]
+---
+
+::: {.venue-line}
+Current Microbiology, 83, 389
+:::
+
+**DOI:** [10.1007/s00284-026-04982-3](https://doi.org/10.1007/s00284-026-04982-3)
+
+Compares time series and machine learning models for forecasting lumpy skin disease virus
+spread across ten high-risk countries.

@@ -1,0 +1,15 @@
+---
+title: "Traditional and Machine Learning Models for Forecasting Apple Production and Cultivation Area"
+author: "Khan, S.A., Sharma, D.K., Shukla, A.K., Verma, M.R., Sharma, A., Yadav, S.K."
+date: 2025-01-01
+categories: [forecasting, machine learning, agriculture]
+---
+
+::: {.venue-line}
+Applied Fruit Science, 67, 402
+:::
+
+**DOI:** [10.1007/s10341-025-01639-6](https://doi.org/10.1007/s10341-025-01639-6)
+
+Compares traditional statistical and machine learning approaches for forecasting apple
+production and cultivation area.

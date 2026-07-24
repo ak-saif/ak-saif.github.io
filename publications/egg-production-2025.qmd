@@ -1,0 +1,14 @@
+---
+title: "Machine Learning Models for Analysis and Prediction of Optimal Egg Production"
+author: "Khan, S.A., Shukla, A.K., Yadav, S.K., Vishwakarma, G.K."
+date: 2025-01-02
+categories: [machine learning, agriculture, prediction]
+---
+
+::: {.venue-line}
+Quality & Quantity, 60, 1705
+:::
+
+**DOI:** [10.1007/s11135-025-02309-1](https://doi.org/10.1007/s11135-025-02309-1)
+
+Machine learning approaches applied to analyze and predict optimal egg production.
