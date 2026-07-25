@@ -40,7 +40,7 @@ website:
 
 format:
   html:
-    theme: [sandstone, styles.scss]
+    theme: [cosmo, styles.scss]
     include-in-header: font-links.html
     toc: false
     grid:
