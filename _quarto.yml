@@ -38,9 +38,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/dsaifstats/
         aria-label: LinkedIn
-      - icon: github
-        href: https://github.com/ak-saif
-        aria-label: GitHub
 
   page-footer:
     center: ""
