@@ -1,7 +1,12 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - CV.pdf
+    - photo.jpg
+    - logo.png
+    - img/title-graphic.svg
+    
 website:
   title: "Dr. Saif Ali Khan"
   site-url: "https://ak-saif.github.io"

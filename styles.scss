@@ -1,5 +1,5 @@
 /*-- scss:defaults --*/
-$body-bg: #FFFFFF;
+$body-bg: #F5F5F2;
 $body-color: #16213E;
 $link-color: #7A2E3D;
 $link-hover-color: #5C2230;
@@ -110,7 +110,27 @@ body { line-height: 1.65; }
 .timeline .place { color: #4A5268; font-style: italic; font-size: 0.92rem; }
 .timeline .detail { color: #4A5268; font-size: 0.92rem; }
 
-// Videos page — YouTube-style thumbnail grid
+// Homepage title illustration
+.title-graphic {
+  max-width: 760px;
+  margin: 0.5rem auto 2rem;
+}
+.title-graphic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Homepage title: centered, maroon — scoped to just this page
+// (the :has() selector targets only the page containing .title-graphic,
+// so About/Publications/etc. page titles are untouched)
+body:has(.title-graphic) #title-block-header .title {
+  text-align: center;
+  color: #7A2E3D;
+}
+body:has(.title-graphic) #title-block-header {
+  text-align: center;
+}
 .yt-section { margin-bottom: 2.5rem; }
 .yt-section h2 {
   font-size: 1.3rem;
