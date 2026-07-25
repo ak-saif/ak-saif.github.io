@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-fee9593aa6783d3316ccb49e262d1685.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e5585571fdcc36b6706734a4fe766138.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-eaa8409a9136f37bff0973f62acf1f93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -179,8 +179,13 @@ window.Quarto = {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./CV.pdf" target="_blank"> <i class="bi bi-file-earmark-person" role="img" aria-label="CV">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/dsaifstats"> <i class="bi bi-twitter-x" role="img" aria-label="X (Twitter)">
+    <a class="nav-link" href="https://x.com/dsaifstats"> <i class="bi bi-twitter-x" role="img" aria-label="X">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -206,7 +211,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y2x1c3RlcmluZw==">clustering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Zm9yZWNhc3Rpbmc=">forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlwb3RoZXNpcyUyMHRlc3Rpbmc=">hypothesis testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RhdGlzdGljcw==">statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGltZSUyMHNlcmllcw==">time series <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -229,14 +234,100 @@ window.Quarto = {
 </header>
 
 
-<p>Notes, articles, and commentary — new posts appear here automatically, newest first.</p>
+<p>Short notes on statistics, machine learning, and applied research — newest first.</p>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="c3RhdGlzdGljcyUyQ2h5cG90aGVzaXMlMjB0ZXN0aW5n" data-listing-date-sort="1782844200000" data-listing-file-modified-sort="1784959726000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
+<div class="thumbnail"><a href="./mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html" class="no-external">
 
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html" class="no-external">What a p-value Actually Tells You</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aHlwb3RoZXNpcyUyMHRlc3Rpbmc='); return false;">hypothesis testing</div>
+
+</div>
+<div class="delink listing-description"><a href="./mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html" class="no-external">
+<p>A plain-language look at the most misunderstood number in applied research.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html" class="no-external">
+<div class="listing-date">
+Jul 1, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="dGltZSUyMHNlcmllcyUyQ2ZvcmVjYXN0aW5n" data-listing-date-sort="1781461800000" data-listing-file-modified-sort="1784959726000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
+<div class="thumbnail"><a href="./mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html" class="no-external">Time Series Forecasting: Where to Start</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dGltZSUyMHNlcmllcw=='); return false;">time series</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zm9yZWNhc3Rpbmc='); return false;">forecasting</div>
+
+</div>
+<div class="delink listing-description"><a href="./mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html" class="no-external">
+<p>The handful of ideas that make most forecasting methods click.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html" class="no-external">
+<div class="listing-date">
+Jun 15, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDY2x1c3RlcmluZw==" data-listing-date-sort="1779215400000" data-listing-file-modified-sort="1784959726000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<div class="thumbnail"><a href="./mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html" class="no-external">K-means Clustering, Without the Jargon</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">machine learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2x1c3RlcmluZw=='); return false;">clustering</div>
+
+</div>
+<div class="delink listing-description"><a href="./mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html" class="no-external">
+<p>How K-means actually decides where the groups are.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html" class="no-external">
+<div class="listing-date">
+May 20, 2026
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

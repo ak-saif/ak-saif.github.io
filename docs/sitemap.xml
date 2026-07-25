@@ -6,11 +6,11 @@
   </url>
   <url>
     <loc>https://ak-saif.github.io/about.html</loc>
-    <lastmod>2026-07-25T10:43:37.082Z</lastmod>
+    <lastmod>2026-07-25T11:21:49.967Z</lastmod>
   </url>
   <url>
     <loc>https://ak-saif.github.io/index.html</loc>
-    <lastmod>2026-07-25T04:32:13.168Z</lastmod>
+    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
   </url>
   <url>
     <loc>https://ak-saif.github.io/publications/egg-production-2025.html</loc>
@@ -55,5 +55,17 @@
   <url>
     <loc>https://ak-saif.github.io/writing.html</loc>
     <lastmod>2026-07-24T18:37:20.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html</loc>
+    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html</loc>
+    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html</loc>
+    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,22 @@
+---
+title: "What a p-value Actually Tells You"
+date: 2026-07-01
+categories: [statistics, hypothesis testing]
+description: "A plain-language look at the most misunderstood number in applied research."
+---
+
+A p-value answers one narrow question: *if the null hypothesis were true, how surprising
+is data this extreme or more extreme?* It is not the probability that the null hypothesis
+is true, and it is not the probability that your result happened by chance.
+
+A few things worth remembering when reporting or reading p-values:
+
+- **Statistical significance is not practical significance.** A tiny effect can be
+  "significant" with a large enough sample.
+- **p < 0.05 is a convention, not a law of nature.** Treat it as one piece of evidence,
+  not a verdict.
+- **Report effect sizes and confidence intervals alongside p-values** — the magnitude
+  and uncertainty usually matter more than the threshold.
+
+*(Replace this with your own notes, examples from your teaching, or a worked example from
+one of your papers.)*

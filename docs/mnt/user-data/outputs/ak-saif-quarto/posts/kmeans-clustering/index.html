@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yadav, S.K., Khan, S.A., Tiwari, M., Kumar, A., Kumar, V., Akhter, Y.">
-<meta name="dcterms.date" content="2024-01-01">
+<meta name="dcterms.date" content="2026-05-20">
+<meta name="description" content="How K-means actually decides where the groups are.">
 
-<title>Taking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces – Dr.&nbsp;Saif Ali Khan</title>
+<title>K-means Clustering, Without the Jargon – Dr.&nbsp;Saif Ali Khan</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,23 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-fee9593aa6783d3316ccb49e262d1685.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eaa8409a9136f37bff0973f62acf1f93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../../">
+<script src="../../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../../site_libs/quarto-html/quarto-syntax-highlighting-fee9593aa6783d3316ccb49e262d1685.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../../site_libs/bootstrap/bootstrap-eaa8409a9136f37bff0973f62acf1f93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,11 +85,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../logo.png" alt="" class="navbar-logo light-content">
-    <img src="../logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../../../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../../../logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../../../../../logo.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../../../../index.html">
     <span class="navbar-title">Dr.&nbsp;Saif Ali Khan</span>
     </a>
   </div>
@@ -100,29 +100,34 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../background.html"> 
+    <a class="nav-link" href="../../../../../../background.html"> 
 <span class="menu-text">Background</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html"> 
+    <a class="nav-link" href="../../../../../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks.html"> 
+    <a class="nav-link" href="../../../../../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../videos.html"> 
+    <a class="nav-link" href="../../../../../../videos.html"> 
 <span class="menu-text">Videos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../../CV.pdf" target="_blank"> <i class="bi bi-file-earmark-person" role="img" aria-label="CV">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/dsaifstats"> <i class="bi bi-twitter-x" role="img" aria-label="X (Twitter)">
+    <a class="nav-link" href="https://x.com/dsaifstats"> <i class="bi bi-twitter-x" role="img" aria-label="X">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -153,29 +158,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Taking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces</h1>
+<h1 class="title">K-means Clustering, Without the Jargon</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">covid-19</div>
-    <div class="quarto-category">epidemiology</div>
-    <div class="quarto-category">time series</div>
+    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">clustering</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    How K-means actually decides where the groups are.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Yadav, S.K., Khan, S.A., Tiwari, M., Kumar, A., Kumar, V., Akhter, Y. </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2024</p>
+      <p class="date">May 20, 2026</p>
     </div>
   </div>
   
@@ -187,11 +190,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="venue-line">
-<p>Spatial and Spatio-Temporal Epidemiology, 48, 100634</p>
-</div>
-<p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.sste.2024.100634">10.1016/j.sste.2024.100634</a></p>
-<p>Combines machine learning, compartmental, and time series models to study SARS-CoV-2 Omicron spread across Indian provinces.</p>
+<p>K-means clustering groups data points by repeating two simple steps until nothing changes:</p>
+<ol type="1">
+<li><strong>Assign</strong> each point to its nearest cluster center.</li>
+<li><strong>Update</strong> each cluster center to the average of the points assigned to it.</li>
+</ol>
+<p>That’s the whole algorithm. The tricky parts in practice are usually:</p>
+<ul>
+<li><strong>Choosing k</strong> (the number of clusters) — the “elbow method” and silhouette scores are common starting points, but domain knowledge often matters more.</li>
+<li><strong>Scaling your features first</strong> — K-means uses distance, so a variable measured in the thousands will dominate one measured in decimals unless you standardize.</li>
+<li><strong>Initialization matters</strong> — K-means++ initialization avoids a lot of the bad-luck clustering that plain random starts can produce.</li>
+</ul>
+<p><em>(This pairs well with a link to the socio-economic clustering paper on the Publications page.)</em></p>
 
 
 

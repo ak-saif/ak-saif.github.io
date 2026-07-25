@@ -22,9 +22,14 @@ website:
       - href: videos.qmd
         text: Videos
     right:
+      - icon: file-earmark-person
+        text: CV
+        href: CV.pdf
+        target: _blank
+        aria-label: CV
       - icon: twitter-x
         href: https://x.com/dsaifstats
-        aria-label: X (Twitter)
+        aria-label: X
       - icon: linkedin
         href: https://www.linkedin.com/in/dsaifstats/
         aria-label: LinkedIn

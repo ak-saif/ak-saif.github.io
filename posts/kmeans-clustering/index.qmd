@@ -1,0 +1,22 @@
+---
+title: "K-means Clustering, Without the Jargon"
+date: 2026-05-20
+categories: [machine learning, clustering]
+description: "How K-means actually decides where the groups are."
+---
+
+K-means clustering groups data points by repeating two simple steps until nothing changes:
+
+1. **Assign** each point to its nearest cluster center.
+2. **Update** each cluster center to the average of the points assigned to it.
+
+That's the whole algorithm. The tricky parts in practice are usually:
+
+- **Choosing k** (the number of clusters) — the "elbow method" and silhouette scores are
+  common starting points, but domain knowledge often matters more.
+- **Scaling your features first** — K-means uses distance, so a variable measured in the
+  thousands will dominate one measured in decimals unless you standardize.
+- **Initialization matters** — K-means++ initialization avoids a lot of the bad-luck
+  clustering that plain random starts can produce.
+
+*(This pairs well with a link to the socio-economic clustering paper on the Publications page.)*

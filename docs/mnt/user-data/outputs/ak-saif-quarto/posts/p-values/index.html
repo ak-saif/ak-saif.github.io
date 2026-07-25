@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yadav, S.K., Khan, S.A., Tiwari, M., Kumar, A., Kumar, V., Akhter, Y.">
-<meta name="dcterms.date" content="2024-01-01">
+<meta name="dcterms.date" content="2026-07-01">
+<meta name="description" content="A plain-language look at the most misunderstood number in applied research.">
 
-<title>Taking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces – Dr.&nbsp;Saif Ali Khan</title>
+<title>What a p-value Actually Tells You – Dr.&nbsp;Saif Ali Khan</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,23 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-fee9593aa6783d3316ccb49e262d1685.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eaa8409a9136f37bff0973f62acf1f93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../../">
+<script src="../../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../../site_libs/quarto-html/quarto-syntax-highlighting-fee9593aa6783d3316ccb49e262d1685.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../../site_libs/bootstrap/bootstrap-eaa8409a9136f37bff0973f62acf1f93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,11 +85,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../logo.png" alt="" class="navbar-logo light-content">
-    <img src="../logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../../../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../../../logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../../../../../logo.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../../../../index.html">
     <span class="navbar-title">Dr.&nbsp;Saif Ali Khan</span>
     </a>
   </div>
@@ -100,29 +100,34 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../background.html"> 
+    <a class="nav-link" href="../../../../../../background.html"> 
 <span class="menu-text">Background</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html"> 
+    <a class="nav-link" href="../../../../../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks.html"> 
+    <a class="nav-link" href="../../../../../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../videos.html"> 
+    <a class="nav-link" href="../../../../../../videos.html"> 
 <span class="menu-text">Videos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../../CV.pdf" target="_blank"> <i class="bi bi-file-earmark-person" role="img" aria-label="CV">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/dsaifstats"> <i class="bi bi-twitter-x" role="img" aria-label="X (Twitter)">
+    <a class="nav-link" href="https://x.com/dsaifstats"> <i class="bi bi-twitter-x" role="img" aria-label="X">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -153,29 +158,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Taking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces</h1>
+<h1 class="title">What a p-value Actually Tells You</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">covid-19</div>
-    <div class="quarto-category">epidemiology</div>
-    <div class="quarto-category">time series</div>
+    <div class="quarto-category">statistics</div>
+    <div class="quarto-category">hypothesis testing</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    A plain-language look at the most misunderstood number in applied research.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Yadav, S.K., Khan, S.A., Tiwari, M., Kumar, A., Kumar, V., Akhter, Y. </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2024</p>
+      <p class="date">July 1, 2026</p>
     </div>
   </div>
   
@@ -187,11 +190,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="venue-line">
-<p>Spatial and Spatio-Temporal Epidemiology, 48, 100634</p>
-</div>
-<p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.sste.2024.100634">10.1016/j.sste.2024.100634</a></p>
-<p>Combines machine learning, compartmental, and time series models to study SARS-CoV-2 Omicron spread across Indian provinces.</p>
+<p>A p-value answers one narrow question: <em>if the null hypothesis were true, how surprising is data this extreme or more extreme?</em> It is not the probability that the null hypothesis is true, and it is not the probability that your result happened by chance.</p>
+<p>A few things worth remembering when reporting or reading p-values:</p>
+<ul>
+<li><strong>Statistical significance is not practical significance.</strong> A tiny effect can be “significant” with a large enough sample.</li>
+<li><strong>p &lt; 0.05 is a convention, not a law of nature.</strong> Treat it as one piece of evidence, not a verdict.</li>
+<li><strong>Report effect sizes and confidence intervals alongside p-values</strong> — the magnitude and uncertainty usually matter more than the threshold.</li>
+</ul>
+<p><em>(Replace this with your own notes, examples from your teaching, or a worked example from one of your papers.)</em></p>
 
 
 

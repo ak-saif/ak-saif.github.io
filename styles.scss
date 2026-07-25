@@ -37,6 +37,27 @@ body { line-height: 1.65; }
   margin-bottom: 4px;
 }
 
+// small CV badge inline with the name on the About page
+.cv-badge {
+  font-family: $font-family-monospace;
+  font-size: 0.65rem;
+  vertical-align: middle;
+  margin-left: 12px;
+  padding: 3px 10px;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #7A2E3D;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.cv-badge:hover {
+  background: #7A2E3D;
+  color: #F5F5F2;
+  text-decoration: none;
+}
+
 // pull-quote style tagline on the About page
 .tagline {
   font-family: $headings-font-family;

@@ -9,4 +9,4 @@ listing:
 page-layout: full
 ---
 
-Notes, articles, and commentary — new posts appear here automatically, newest first.
+Short notes on statistics, machine learning, and applied research — newest first.
