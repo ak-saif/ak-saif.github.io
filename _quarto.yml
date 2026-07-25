@@ -33,7 +33,7 @@ website:
         aria-label: GitHub
 
   page-footer:
-    center: "© Dr. Saif Ali Khan"
+    center: ""
     border: false
 
 format:

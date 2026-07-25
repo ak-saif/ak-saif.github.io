@@ -2,20 +2,19 @@
 title: "Videos"
 ---
 
-Only two videos on the channel so far — more will be added over time.
+Welcome to the Statistics Lectures Library. Here you'll find all the Statistics lectures from my YouTube channel, organized in one place. New lectures will be added regularly as they are recorded and published.
 
 ::: {.video-card}
-### Video 1  <!-- TODO: replace with the real title -->
+### Introduction to Statistics
 
-::: {.ratio .ratio-16x9}
+::: {.ratio .ratio-4x3}
 <iframe src="https://www.youtube.com/embed/y2_ywIawXg8" title="YouTube video" allowfullscreen></iframe>
 :::
 :::
 
 ::: {.video-card}
-### Video 2  <!-- TODO: replace with the real title -->
-
-::: {.ratio .ratio-16x9}
+### Measure of Central Tendency | Mean, Median, Mod
+::: {.ratio .ratio-4x3}
 <iframe src="https://www.youtube.com/embed/ymqG-HBjlXk" title="YouTube video" allowfullscreen></iframe>
 :::
 :::

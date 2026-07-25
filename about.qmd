@@ -9,9 +9,9 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: "profsaifstats@gmail.com"
+      href: profsaifstats@gmail.com
     - icon: twitter-x
-      text: X (Twitter)
+      text: X
       href: https://x.com/dsaifstats
     - icon: linkedin
       text: LinkedIn
