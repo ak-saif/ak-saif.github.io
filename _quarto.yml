@@ -9,7 +9,7 @@ website:
   navbar:
     logo: logo.png
     background: "#16213E"
-    foreground: "#F5F5F2"
+    foreground: "#16213E"
     left:
       - href: about.qmd
         text: About
@@ -35,7 +35,7 @@ website:
         href: index.xml
         aria-label: RSS feed
   page-footer:
-    center: "© Dr. Saif Ali Khan · built with Quarto"
+    right: "© Dr. Saif Ali Khan"
     border: false
 
 format:
