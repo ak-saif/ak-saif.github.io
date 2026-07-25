@@ -36,11 +36,8 @@ website:
       - icon: github
         href: https://github.com/ak-saif
         aria-label: GitHub
-      - icon: rss
-        href: index.xml
-        aria-label: RSS feed
   page-footer:
-    center: "© Dr. Saif Ali Khan · built with Quarto"
+    center: ""
     border: false
 
 format:
