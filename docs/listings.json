@@ -2,9 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html",
-      "/mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html",
-      "/mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html"
+      "/posts/p-values/index.html",
+      "/posts/time-series-basics/index.html",
+      "/posts/kmeans-clustering/index.html"
     ]
   },
   {
@@ -22,9 +22,9 @@
   {
     "listing": "/writing.html",
     "items": [
-      "/mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html",
-      "/mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html",
-      "/mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html"
+      "/posts/p-values/index.html",
+      "/posts/time-series-basics/index.html",
+      "/posts/kmeans-clustering/index.html"
     ]
   }
 ]

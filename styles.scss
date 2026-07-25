@@ -1,12 +1,8 @@
 /*-- scss:defaults --*/
-// $body-bg: #F5F5F2;
-// $body-color: #16213E;
-// $link-color: #7A2E3D;
-// $link-hover-color: #5C2230;
-
-// $navbar-bg: #F5F5F2;
-// $navbar-fg: #16213E;
-// $navbar-hl: #7A2E3D;
+$body-bg: #FFFFFF;
+$body-color: #16213E;
+$link-color: #7A2E3D;
+$link-hover-color: #5C2230;
 
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 $font-family-monospace: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
@@ -21,11 +17,12 @@ $border-color: #DFDCD3;
 body { line-height: 1.65; }
 
 .navbar {
-  border-bottom: 1px solid $border-color;
   font-family: $font-family-monospace;
   font-size: 0.85rem;
   letter-spacing: 0.02em;
 }
+.navbar-brand-container { gap: 10px; }
+.navbar-logo { border-radius: 50%; }
 
 // eyebrow-style page kicker, used via a div in .qmd content
 .eyebrow {
@@ -35,27 +32,6 @@ body { line-height: 1.65; }
   text-transform: uppercase;
   color: #7A2E3D;
   margin-bottom: 4px;
-}
-
-// small CV badge inline with the name on the About page
-.cv-badge {
-  font-family: $font-family-monospace;
-  font-size: 0.65rem;
-  vertical-align: middle;
-  margin-left: 12px;
-  padding: 3px 10px;
-  border: 1px solid $border-color;
-  border-radius: 999px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #7A2E3D;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.cv-badge:hover {
-  background: #7A2E3D;
-  color: #F5F5F2;
-  text-decoration: none;
 }
 
 // pull-quote style tagline on the About page
@@ -133,3 +109,59 @@ body { line-height: 1.65; }
 }
 .timeline .place { color: #4A5268; font-style: italic; font-size: 0.92rem; }
 .timeline .detail { color: #4A5268; font-size: 0.92rem; }
+
+// Videos page — YouTube-style thumbnail grid
+.yt-section { margin-bottom: 2.5rem; }
+.yt-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.25rem;
+}
+.yt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+.yt-card {
+  cursor: pointer;
+}
+.yt-thumb-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #16213E;
+  border: 1px solid $border-color;
+}
+.yt-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+.yt-card:hover .yt-thumb { transform: scale(1.03); }
+.yt-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.35));
+}
+.yt-card:hover .yt-play-btn { opacity: 1; }
+.yt-thumb-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.yt-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 10px 2px 0;
+  line-height: 1.35;
+  color: #16213E;
+}

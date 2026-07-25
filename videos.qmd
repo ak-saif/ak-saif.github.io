@@ -2,19 +2,59 @@
 title: "Videos"
 ---
 
-Welcome to the Statistics Lectures Library. Here you'll find all the Statistics lectures from my YouTube channel, organized in one place. New lectures will be added regularly as they are recorded and published.
+Welcome to the Statistics Lectures Library. Here you'll find all the statistics lectures
+from my YouTube channel, organized in one place. New lectures will be added regularly as
+they're recorded and published.
 
-::: {.video-card}
-### Introduction to Statistics
+::: {.yt-section}
+## All Videos
 
-::: {.ratio .ratio-4x3}
-<iframe src="https://www.youtube.com/embed/y2_ywIawXg8" title="YouTube video" allowfullscreen></iframe>
+::: {.yt-grid}
+
+```{=html}
+<div class="yt-card" onclick="ytPlay(this, 'y2_ywIawXg8')">
+  <div class="yt-thumb-wrap">
+    <img class="yt-thumb" src="https://img.youtube.com/vi/y2_ywIawXg8/hqdefault.jpg" alt="Introduction to Statistics thumbnail" loading="lazy">
+    <div class="yt-play-btn">
+      <svg viewBox="0 0 68 48" width="44" height="32"><path d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24 S67.94,13.05,66.52,7.74z" fill="#7A2E3D"></path><path d="M 45,24 27,14 27,34" fill="#F5F5F2"></path></svg>
+    </div>
+  </div>
+  <p class="yt-title">Introduction to Statistics</p>
+</div>
+
+<div class="yt-card" onclick="ytPlay(this, 'ymqG-HBjlXk')">
+  <div class="yt-thumb-wrap">
+    <img class="yt-thumb" src="https://img.youtube.com/vi/ymqG-HBjlXk/hqdefault.jpg" alt="Measures of Central Tendency thumbnail" loading="lazy">
+    <div class="yt-play-btn">
+      <svg viewBox="0 0 68 48" width="44" height="32"><path d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24 S67.94,13.05,66.52,7.74z" fill="#7A2E3D"></path><path d="M 45,24 27,14 27,34" fill="#F5F5F2"></path></svg>
+    </div>
+  </div>
+  <p class="yt-title">Measures of Central Tendency | Mean, Median, Mode</p>
+</div>
+```
+
 :::
 :::
 
-::: {.video-card}
-### Measure of Central Tendency | Mean, Median, Mod
-::: {.ratio .ratio-4x3}
-<iframe src="https://www.youtube.com/embed/ymqG-HBjlXk" title="YouTube video" allowfullscreen></iframe>
-:::
-:::
+<!--
+HOW TO ADD A NEW PLAYLIST SECTION:
+
+1. Copy the whole ::: {.yt-section} ... ::: block above (from "## All Videos" down
+   to the closing ":::" after the grid).
+2. Paste it below this comment.
+3. Change "## All Videos" to your playlist name, e.g. "## Hypothesis Testing Series".
+4. For each video, duplicate one <div class="yt-card">...</div> block and change:
+   - the video ID in onclick="ytPlay(this, 'VIDEO_ID')"
+   - the video ID in the thumbnail src URL (the same ID, twice)
+   - the alt text and the text inside <p class="yt-title">...</p>
+-->
+
+```{=html}
+<script>
+function ytPlay(card, videoId) {
+  const wrap = card.querySelector('.yt-thumb-wrap');
+  wrap.innerHTML = '<iframe src="https://www.youtube.com/embed/' + videoId +
+    '?autoplay=1" title="YouTube video" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+}
+</script>
+```

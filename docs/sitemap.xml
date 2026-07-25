@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ak-saif.github.io/videos.html</loc>
-    <lastmod>2026-07-25T07:16:27.324Z</lastmod>
+    <lastmod>2026-07-25T06:33:42.000Z</lastmod>
   </url>
   <url>
     <loc>https://ak-saif.github.io/about.html</loc>
@@ -29,8 +29,20 @@
     <lastmod>2026-07-24T18:37:20.610Z</lastmod>
   </url>
   <url>
+    <loc>https://ak-saif.github.io/posts/time-series-basics/index.html</loc>
+    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://ak-saif.github.io/background.html</loc>
     <lastmod>2026-07-24T18:37:20.602Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ak-saif.github.io/posts/p-values/index.html</loc>
+    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ak-saif.github.io/posts/kmeans-clustering/index.html</loc>
+    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
   </url>
   <url>
     <loc>https://ak-saif.github.io/publications/lumpy-skin-disease-2026.html</loc>
@@ -55,17 +67,5 @@
   <url>
     <loc>https://ak-saif.github.io/writing.html</loc>
     <lastmod>2026-07-24T18:37:20.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html</loc>
-    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html</loc>
-    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html</loc>
-    <lastmod>2026-07-25T06:08:46.000Z</lastmod>
   </url>
 </urlset>

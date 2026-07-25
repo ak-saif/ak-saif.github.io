@@ -13,7 +13,7 @@
 <lastBuildDate>Tue, 30 Jun 2026 18:30:00 GMT</lastBuildDate>
 <item>
   <title>What a p-value Actually Tells You</title>
-  <link>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/p-values/</link>
+  <link>https://ak-saif.github.io/posts/p-values/</link>
   <description><![CDATA[ 
 
 
@@ -33,12 +33,12 @@
  ]]></description>
   <category>statistics</category>
   <category>hypothesis testing</category>
-  <guid>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/p-values/</guid>
+  <guid>https://ak-saif.github.io/posts/p-values/</guid>
   <pubDate>Tue, 30 Jun 2026 18:30:00 GMT</pubDate>
 </item>
 <item>
   <title>Time Series Forecasting: Where to Start</title>
-  <link>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/</link>
+  <link>https://ak-saif.github.io/posts/time-series-basics/</link>
   <description><![CDATA[ 
 
 
@@ -58,12 +58,12 @@
  ]]></description>
   <category>time series</category>
   <category>forecasting</category>
-  <guid>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/</guid>
+  <guid>https://ak-saif.github.io/posts/time-series-basics/</guid>
   <pubDate>Sun, 14 Jun 2026 18:30:00 GMT</pubDate>
 </item>
 <item>
   <title>K-means Clustering, Without the Jargon</title>
-  <link>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/</link>
+  <link>https://ak-saif.github.io/posts/kmeans-clustering/</link>
   <description><![CDATA[ 
 
 
@@ -87,7 +87,7 @@
  ]]></description>
   <category>machine learning</category>
   <category>clustering</category>
-  <guid>https://ak-saif.github.io/mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/</guid>
+  <guid>https://ak-saif.github.io/posts/kmeans-clustering/</guid>
   <pubDate>Tue, 19 May 2026 18:30:00 GMT</pubDate>
 </item>
 </channel>

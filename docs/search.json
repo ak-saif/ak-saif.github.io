@@ -4,7 +4,14 @@
     "href": "videos.html",
     "title": "Videos",
     "section": "",
-    "text": "Welcome to the Statistics Lectures Library. Here you’ll find all the Statistics lectures from my YouTube channel, organized in one place. New lectures will be added regularly as they are recorded and published.\n\nIntroduction to Statistics\n\n\n\n\n\n\nMeasure of Central Tendency | Mean, Median, Mod"
+    "text": "Welcome to the Statistics Lectures Library. Here you’ll find all the statistics lectures from my YouTube channel, organized in one place. New lectures will be added regularly as they’re recorded and published."
+  },
+  {
+    "objectID": "videos.html#all-videos",
+    "href": "videos.html#all-videos",
+    "title": "Videos",
+    "section": "All Videos",
+    "text": "All Videos\n\n\n  \n    \n    \n      \n    \n  \n  Introduction to Statistics\n\n\n\n  \n    \n    \n      \n    \n  \n  Measures of Central Tendency | Mean, Median, Mode"
   },
   {
     "objectID": "about.html",
@@ -49,11 +56,32 @@
     "text": "2024\n\nPredicting Lumpy Skin Disease Outbreak: A Comparative Study of Machine Learning Across Affected Countries\nInternational Conference on Advances in Geometry, Algebra, Analysis and Artificial Intelligence (ICAGAAAI-2024), Integral University, Lucknow · Nov 7–9, 2024\nWorkshop on Computational Oncology (participant)\nDepartment of Mathematics, Indian Institute of Technology Patna · April 19–21, 2024\n\n2023\n\nA Comparative Study of Trends for Dengue Outbreaks and Mortality in India Using Different Machine Learning Models\nInternational Conference on Innovations in Science, Management and Technology (ICISMT), Chaudhary Devi Lal University, Sirsa · Aug 17–18, 2023"
   },
   {
+    "objectID": "posts/time-series-basics/index.html",
+    "href": "posts/time-series-basics/index.html",
+    "title": "Time Series Forecasting: Where to Start",
+    "section": "",
+    "text": "Most time series methods, from ARIMA to gradient-boosted trees, are trying to separate a series into a few recurring pieces:\n\nTrend — the long-run direction.\nSeasonality — patterns that repeat at fixed intervals (weekly, yearly).\nNoise — what’s left after trend and seasonality are accounted for.\n\nOnce a series is decomposed this way, forecasting becomes a question of which piece is hardest to predict for your data — and that’s usually what determines whether a simple model (like exponential smoothing) will do, or whether you need something that can learn nonlinear structure (like an ML model with engineered lag features).\n(Good place to link to one of your own papers — e.g. the lumpy skin disease or Omicron time series work — as a worked example.)"
+  },
+  {
     "objectID": "background.html",
     "href": "background.html",
     "title": "Background",
     "section": "",
     "text": "Education\n\n\n\n\n\n\n\n\nJul 2022 – Nov 2025\nPh.D. in Statistics\nBabasaheb Bhimrao Ambedkar University, Lucknow\nThesis: Infectious Disease Modeling Through Distinct Statistical & Machine Learning Techniques\n\n\n2018 – 2020\nM.Sc. in Statistics\nAligarh Muslim University, Aligarh · GPA 7.69/10\nDissertation: Image Classification of Skin Lesion\n\n\n2015 – 2018\nB.Sc. (Hons) in Statistics\nAligarh Muslim University, Aligarh · GPA 7.84/10\nDissertation: Effectiveness of Choice-Based Credit System (Survey Report)\n\n\n\n\nExperience\n\n\n\n\n\n\n\n\nNov 2025 – present\nAssistant Professor\nDirectorate of Online Education, Manipal Academy of Higher Education, Manipal\n\n\nJun 2023 – Oct 2024\nResearch Assistant (UPCST-funded project)\nDepartment of Statistics, BBAU, Lucknow\nProject: Statistical modeling for COVID-19 spread using different approaches. Designed compartmental and statistical models for COVID-19 transmission; applied time series and ML models for prediction."
+  },
+  {
+    "objectID": "posts/p-values/index.html",
+    "href": "posts/p-values/index.html",
+    "title": "What a p-value Actually Tells You",
+    "section": "",
+    "text": "A p-value answers one narrow question: if the null hypothesis were true, how surprising is data this extreme or more extreme? It is not the probability that the null hypothesis is true, and it is not the probability that your result happened by chance.\nA few things worth remembering when reporting or reading p-values:\n\nStatistical significance is not practical significance. A tiny effect can be “significant” with a large enough sample.\np &lt; 0.05 is a convention, not a law of nature. Treat it as one piece of evidence, not a verdict.\nReport effect sizes and confidence intervals alongside p-values — the magnitude and uncertainty usually matter more than the threshold.\n\n(Replace this with your own notes, examples from your teaching, or a worked example from one of your papers.)"
+  },
+  {
+    "objectID": "posts/kmeans-clustering/index.html",
+    "href": "posts/kmeans-clustering/index.html",
+    "title": "K-means Clustering, Without the Jargon",
+    "section": "",
+    "text": "K-means clustering groups data points by repeating two simple steps until nothing changes:\n\nAssign each point to its nearest cluster center.\nUpdate each cluster center to the average of the points assigned to it.\n\nThat’s the whole algorithm. The tricky parts in practice are usually:\n\nChoosing k (the number of clusters) — the “elbow method” and silhouette scores are common starting points, but domain knowledge often matters more.\nScaling your features first — K-means uses distance, so a variable measured in the thousands will dominate one measured in decimals unless you standardize.\nInitialization matters — K-means++ initialization avoids a lot of the bad-luck clustering that plain random starts can produce.\n\n(This pairs well with a link to the socio-economic clustering paper on the Publications page.)"
   },
   {
     "objectID": "publications/lumpy-skin-disease-2026.html",
@@ -96,26 +124,5 @@
     "title": "Writing",
     "section": "",
     "text": "Articles, notes, and commentary. New posts appear here automatically — see posts/README.md for how to add one.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat a p-value Actually Tells You\n\n\nA plain-language look at the most misunderstood number in applied research.\n\n\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nTime Series Forecasting: Where to Start\n\n\nThe handful of ideas that make most forecasting methods click.\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nK-means Clustering, Without the Jargon\n\n\nHow K-means actually decides where the groups are.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html",
-    "href": "mnt/user-data/outputs/ak-saif-quarto/posts/kmeans-clustering/index.html",
-    "title": "K-means Clustering, Without the Jargon",
-    "section": "",
-    "text": "K-means clustering groups data points by repeating two simple steps until nothing changes:\n\nAssign each point to its nearest cluster center.\nUpdate each cluster center to the average of the points assigned to it.\n\nThat’s the whole algorithm. The tricky parts in practice are usually:\n\nChoosing k (the number of clusters) — the “elbow method” and silhouette scores are common starting points, but domain knowledge often matters more.\nScaling your features first — K-means uses distance, so a variable measured in the thousands will dominate one measured in decimals unless you standardize.\nInitialization matters — K-means++ initialization avoids a lot of the bad-luck clustering that plain random starts can produce.\n\n(This pairs well with a link to the socio-economic clustering paper on the Publications page.)"
-  },
-  {
-    "objectID": "mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html",
-    "href": "mnt/user-data/outputs/ak-saif-quarto/posts/p-values/index.html",
-    "title": "What a p-value Actually Tells You",
-    "section": "",
-    "text": "A p-value answers one narrow question: if the null hypothesis were true, how surprising is data this extreme or more extreme? It is not the probability that the null hypothesis is true, and it is not the probability that your result happened by chance.\nA few things worth remembering when reporting or reading p-values:\n\nStatistical significance is not practical significance. A tiny effect can be “significant” with a large enough sample.\np &lt; 0.05 is a convention, not a law of nature. Treat it as one piece of evidence, not a verdict.\nReport effect sizes and confidence intervals alongside p-values — the magnitude and uncertainty usually matter more than the threshold.\n\n(Replace this with your own notes, examples from your teaching, or a worked example from one of your papers.)"
-  },
-  {
-    "objectID": "mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html",
-    "href": "mnt/user-data/outputs/ak-saif-quarto/posts/time-series-basics/index.html",
-    "title": "Time Series Forecasting: Where to Start",
-    "section": "",
-    "text": "Most time series methods, from ARIMA to gradient-boosted trees, are trying to separate a series into a few recurring pieces:\n\nTrend — the long-run direction.\nSeasonality — patterns that repeat at fixed intervals (weekly, yearly).\nNoise — what’s left after trend and seasonality are accounted for.\n\nOnce a series is decomposed this way, forecasting becomes a question of which piece is hardest to predict for your data — and that’s usually what determines whether a simple model (like exponential smoothing) will do, or whether you need something that can learn nonlinear structure (like an ML model with engineered lag features).\n(Good place to link to one of your own papers — e.g. the lumpy skin disease or Omicron time series work — as a worked example.)"
   }
 ]
