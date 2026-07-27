@@ -6,7 +6,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - CV_with_publication.docx
+    - CV.pdf
     - photo.jpg
     - logo.png
 about:
@@ -23,9 +23,6 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/dsaifstats/
-    - icon: github
-      text: GitHub
-      href: https://github.com/ak-saif
     - icon: mortarboard-fill
       text: G-Scholar
       href: "https://scholar.google.com/citations?user=3isZscUAAAAJ&hl=en&authuser=2"
