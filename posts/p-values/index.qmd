@@ -18,5 +18,3 @@ A few things worth remembering when reporting or reading p-values:
 - **Report effect sizes and confidence intervals alongside p-values** — the magnitude
   and uncertainty usually matter more than the threshold.
 
-*(Replace this with your own notes, examples from your teaching, or a worked example from
-one of your papers.)*

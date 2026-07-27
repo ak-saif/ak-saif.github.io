@@ -17,5 +17,3 @@ hardest to predict for your data — and that's usually what determines whether 
 model (like exponential smoothing) will do, or whether you need something that can learn
 nonlinear structure (like an ML model with engineered lag features).
 
-*(Good place to link to one of your own papers — e.g. the lumpy skin disease or Omicron
-time series work — as a worked example.)*

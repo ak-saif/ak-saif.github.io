@@ -18,5 +18,3 @@ That's the whole algorithm. The tricky parts in practice are usually:
   thousands will dominate one measured in decimals unless you standardize.
 - **Initialization matters** — K-means++ initialization avoids a lot of the bad-luck
   clustering that plain random starts can produce.
-
-*(This pairs well with a link to the socio-economic clustering paper on the Publications page.)*
