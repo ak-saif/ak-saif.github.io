@@ -1,0 +1,16 @@
+---
+title: "Traditional and Machine Learning Models for Forecasting Apple Production and Cultivation Area"
+author: "Khan, S.A., Sharma, D.K., Shukla, A.K., Verma, M.R., Sharma, A., Yadav, S.K."
+date: 2025-01-01
+categories: [forecasting, machine learning, agriculture]
+---
+
+::: {.venue-line}
+Applied Fruit Science, 67, 402
+:::
+
+**DOI:** [10.1007/s10341-025-01639-6](https://doi.org/10.1007/s10341-025-01639-6)
+
+**Abstract**
+
+The cultivation and marketing of apples have a significant role in the Indian economy, particularly in Himachal Pradesh (HP). Accurate forecasting of apple production and the area under cultivation is crucial for policy-making and strategic planning. This study compares the performance of various forecasting models, including Ordinary Least Square (OLS) regression, traditional time series models such as ARIMA, exponential smoothing (ES), damped trend, and Holt’s, and machine learning (ML) models such as Decision Tree (DT), Random Forest (RF), XGBoost, and Support Vector Regression (SVR). The Root Mean Square Error (RMSE) metric is used to evaluate the models’ performance. For predicting the area under apple cultivation, the Decision Tree model demonstrated the lowest RMSE value of 2076.09, followed closely by XGBoost (RMSE: 2077.45) and the damped trend exponential model (RMSE: 2310.55). The Damped trend model achieved the best performance for apple production with an RMSE of 121245.49, followed by the Exponential Smoothing model (RMSE: 122553.92). These results indicate that machine learning (ML) models such as DT and XGBoost are highly effective for forecasting the area under apple cultivation, while traditional time series models like the Damped trend model provide better accuracy for predicting apple production. The study underscores the effectiveness of combining traditional and modern forecasting techniques to improve the accuracy of agricultural predictions, thereby providing valuable insights for planners and policymakers in optimizing apple production and land use in HP.

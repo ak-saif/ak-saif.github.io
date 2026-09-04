@@ -1,0 +1,16 @@
+---
+title: "Decoding Socio-economic Disparities in Uttar Pradesh: A Spatio-temporal Analysis Using Wroclaw Taxonomy and K-means Unsupervised Machine Learning Clustering"
+author: "Singh, V., Hajare, G.C., Khan, S.A., Kumari, A."
+date: 2026-01-03
+categories: [clustering, socio-economic, spatio-temporal]
+---
+
+::: {.venue-line}
+Mathematical Population Studies, 1–23
+:::
+
+**DOI:** [10.1080/08898480.2025.2612641](https://doi.org/10.1080/08898480.2025.2612641)
+
+**Abstract**
+
+Uttar Pradesh, India’s most populous state, continues to face significant socio-economic disparities across its 75 districts. Despite its importance, the state struggles with slow economic growth, poor infrastructure, low literacy, and high infant and maternal mortality. This study evaluates district-wise development over 3 periods-2000–01, 2010–11, and 2022–23 using a composite index based on 21 socio-economic indicators through the Wroclaw Taxonomy method. K-means clustering further classified districts into 5 categories: Highly Developed, Developed, Developing, Less Developed, and Least Developed. The results reveal a growing divide between advanced and lagging districts, with some showing progress, while many remain stagnant or decline. These findings highlight the urgent need for targeted policy interventions, improved governance, and strategic investments tailored to regional needs. The approach supports the achievement of Sustainable Development Goals (SDGs), particularly those focused on reducing inequality, enhancing education, and promoting inclusive economic growth through evidence-based decision-making.

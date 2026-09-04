@@ -1,0 +1,20 @@
+---
+title: "A Comparative State-wise Assessment of Dengue Incidence and Deaths in India Using Annual Surveillance Data"
+author: "Khan, S.A., Yadav, S.K., Akhter, Y."
+date: 2026-01-01
+categories: [dengue, surveillance, epidemiology]
+---
+
+::: {.venue-line}
+Discover Public Health, 23, article 981
+:::
+
+**DOI:** [10.1186/s12982-026-02396-x](https://doi.org/10.1186/s12982-026-02396-x)
+
+**Abstract**
+
+**Background**: Dengue remains a significant public health challenge in India, motivating the use of statistical and machine-learning models to explore and compare forecasting approaches that can inform surveillance planning and epidemiological understanding.\
+**Objective**: This study presents an exploratory, state-wise comparative assessment of classical Statistical, time series and machine-learning (ML) models applied to annual dengue incidence and deaths data in India from 2017 to 2024.\
+**Methods**: We employed Naïve Method, Simple Exponential Smoothing (SES), ARIMA, Linear Regression (LR) and Support Vector Regression (SVR) based on temporal data. Model performance was evaluated using Root Mean Squared Error (RMSE), and the best-performing model for each state was selected based on the lowest RMSE value.\
+**Results**: Uttar Pradesh, Karnataka, Punjab, and Maharashtra are projected to report higher dengue incidences and deaths in 2025. Kerala consistently shows the highest CFR among all Indian States, with an average of 0.551%. Results demonstrate considerable state-wise variation in both disease patterns and model efficacy, underscoring the importance of localized modeling approaches.\
+**Conclusion**: This study provides illustrative, state-specific insights into the comparative performance of forecasting models, which may support methodological evaluation and inform future data-driven surveillance studies when higher-resolution data become available.

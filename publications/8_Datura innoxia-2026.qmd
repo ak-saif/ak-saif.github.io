@@ -1,0 +1,35 @@
+---
+title: "Microwave-induced eustress in Datura innoxia: Integrated photosynthetic, oxidative, and cellular responses to a low-dose hormetic elicitor"
+author: "Khan, M. M. A., Batool, T., Ali, A., Khan, S. A., Naeem, M., & Mukarram, M."
+date: 2026-08-01
+categories: [Microwave radiation, Medicinal plants, Eustress, Hormesis]
+---
+
+::: {.venue-line}
+Biocatalysis and Agricultural Biotechnology, 76, 104207
+:::
+
+**DOI:** [10.1016/j.bcab.2026.104207](https://doi.org/10.1016/j.bcab.2026.104207)
+
+**Abstract**
+
+Both biotic and abiotic stresses induce the production of reactive oxygen species (ROS),
+compromising plant physiology. However, the effects of microwave radiation on plant physiology
+remain poorly understood. We hypothesised that low-dose microwave radiation exposure would
+induce ROS accumulation in the alkaloid-producing plant Datura innoxia. D. innoxia plants were
+exposed to microwave radiation (2.45 GHz) for 0, 1, 2, 4, and 8 s, and physiological responses
+were profiled across six parameter axes 48 h post-exposure. The 8-s exposure raised leaf surface
+temperature to ~52→ C and proved lethal, whereas sub-lethal exposures (↑4 s; ↑35.6→ C) elicited a
+coordinated stimulatory response. A 4-second treatment increased chlorophyll (~36%) and
+electron transport rate (~70%) without impairing PSII integrity. Energy partitioning shifted from
+passive (Y(NO)) to regulated (Y(NPQ)) thermal dissipation as exposure dose increased, with the
+highest non-photochemical quenching at 4 s. A transient H2O2 burst at 2 s, visualised by DAB
+staining and accompanied by a ~16% phenolic increase, preceded the photoprotective activation
+at 4 s. Malondialdehyde content rose monotonically with dose but remained within physiological
+range. Light microscopy revealed widened stomatal apertures at 2 s and prominently visible
+guard-cell chloroplasts at 4 s. Collectively, these findings indicate that brief microwave exposure
+operates as a non-damaging physical elicitor within a narrow dose window (↑4 s), offering a
+novel non-chemical avenue for modulating photosynthesis and oxidative status in medicinal
+plants. The sharp threshold between 4 s (stimulatory) and 8 s (lethal) underscores the dosimetric
+precision required to exploit microwave eustress in biotechnological applications.
+

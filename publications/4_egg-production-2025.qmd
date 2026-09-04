@@ -1,0 +1,16 @@
+---
+title: "Machine Learning Models for Analysis and Prediction of Optimal Egg Production"
+author: "Khan, S.A., Shukla, A.K., Yadav, S.K., Vishwakarma, G.K."
+date: 2025-01-02
+categories: [machine learning, agriculture, prediction]
+---
+
+::: {.venue-line}
+Quality & Quantity, 60, 1705
+:::
+
+**DOI:** [10.1007/s11135-025-02309-1](https://doi.org/10.1007/s11135-025-02309-1)
+
+**Abstract**
+
+This study suggests a mixed approach to predict the optimal age of hens for peak egg production by using mixed linear regression (MLR) models and through machine learn- ing techniques. The primary objective is to enhance the accuracy and reliability of age prediction using real-world egg production data. The dataset collected from the National Root Crop Research Institute (NRCRI) chicken farm in Umudike, Nigeria, contains weekly records of hen age (in weeks) and their corresponding egg production (in grams per day). Two existing regression equations from Pandey and Kumar (J Reliab Stat Stud 7:157–168, 2014) were used as the foundation to develop a new mixed linear regression model, while five ML models Polynomial Regression (degree = 2), Decision Tree, Random Forest, XGBoost, and K-Nearest Neighbors (KNN) were employed for comparison. The performance of models were evaluated using statistical metrics such as Mean Squared Error and the coeﬃcient of determination (R2), along with fivefold cross-validation. The results explains that the proposed MLR provides better predictive accuracy among the regression based approaches. However, among all the models, the KNN model achieved the lowest MSE score of 0.2334, indicating 28.51 weeks as the optimal age for maximum egg production. These findings suggest that combining domain-specific regression knowledge and ML models could enhance predictive performance and could oﬀer practical applications for data-driven poultry management. These insights can assist farm operators in optimizing feeding schedules, flock replacement, and production planning to improve overall farm productivity.

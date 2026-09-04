@@ -1,0 +1,16 @@
+---
+title: "Analyzing Global Threat of Lumpy Skin Disease Virus Infection: A Comparative Study of a Time Series Model and Machine Learning Models Across 10 High-Risk Countries"
+author: "Khan, S.A., Yadav, S.K., Akhter, Y."
+date: 2026-01-02
+categories: [lumpy skin disease, time series, machine learning]
+---
+
+::: {.venue-line}
+Current Microbiology, 83, 389
+:::
+
+**DOI:** [10.1007/s00284-026-04982-3](https://doi.org/10.1007/s00284-026-04982-3)
+
+**Abstract**
+
+Lumpy Skin Disease (LSD), caused by the Lumpy Skin Disease Virus (LSDV), which is a part of the family of Poxviridae, subfamily Chordopoxviridae, and genus Capripoxvirus, is a rapidly spreading viral infection impacting mainly cattle globally, causing huge economic loss. This study explores the effectiveness of time series model Autoregressive Integrated Moving Average (ARIMA), and machine Learning models Decision Tree (DT), Random Forest (RF), and Support Vector Regression (SVR) in predicting LSDV infection rates across the 10 high-risk countries by LSDV, using data obtained from the Food and Agriculture Organization (FAO) EMPRES database, covering reported cases from 2006 to 2024. By using the evaluation metric Mean Squared Error (MSE), we identified the best-fitted model out of four distinct models for each country. Results revealed that the ARIMA model achieved the lowest MSE among all models for Thailand (MSE: 349.57), Bulgaria (4183.09), and North Macedonia (395.02). DT achieved the lowest MSE for Serbia (1.00) and Israel (32.27), while RF scored the lowest MSEs for Turkey (2014.25) and Greece (37.01). SVR achieved the lowest MSE scores in Albania (2.54), the Russian Federation (5.47), and Malaysia (818.50), indicating superior predictive performance in terms of error minimization. These results demonstrate that machine learning models, particularly SVR and DT, consistently achieve lower prediction errors than traditional ARIMA in several countries, highlighting their effectiveness in capturing complex, nonlinear outbreak patterns and their potential for improving disease surveillance and policy decision-making.

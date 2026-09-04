@@ -1,0 +1,16 @@
+---
+title: "Taking Cues from Machine Learning, Compartmental and Time Series Models for SARS-CoV-2 Omicron Infection in Indian Provinces"
+author: "Yadav, S.K., Khan, S.A., Tiwari, M., Kumar, A., Kumar, V., Akhter, Y."
+date: 2024-01-01
+categories: [covid-19, epidemiology, time series]
+---
+
+::: {.venue-line}
+Spatial and Spatio-Temporal Epidemiology, 48, 100634
+:::
+
+**DOI:** [10.1016/j.sste.2024.100634](https://doi.org/10.1016/j.sste.2024.100634)
+
+**Abstract**
+
+SARS-CoV-2, the virus responsible for COVID-19, posed a significant threat to the world. We analyzed COVID-19 dissemination data in the top ten Indian provinces by infection incidences using the Susceptible-Infections-Removed (SIR) model, an Autoregressive Integrated Moving Average (ARIMA) time series model, a machine learning model based on the Random Forest, and distribution fitting. Outbreaks are expected to continue if the Basic Reproduction Number (Ro) > 1, and infection waves are anticipated to end if the Ro < 1, as determined by the SIR model. Different parametric probability distributions are also fitted. Data collected from December 12, 2021, to March 31, 2022, encompassing data from both before and during the implementation of strict control measures. Based on the estimates of the model parameters, health agencies and government policymakers can develop strategies to combat the spread of the disease in the future, and the most effective technique can be recommended for real-world application for other outbreaks of COVID-19. The best method out of these could be also implemented further on the epidemiological data of other similar infectious agents.
