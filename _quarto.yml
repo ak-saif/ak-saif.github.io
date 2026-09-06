@@ -5,7 +5,7 @@ project:
     - CV.pdf
     - photo.jpg
     - logo.png
-    - img/title-graphic.svg
+    - video/tiny.mp4
     
 website:
   title: "Dr. Saif Ali Khan"
@@ -13,7 +13,7 @@ website:
   description: "Assistant Professor — infectious disease modeling with statistics & machine learning"
   navbar:
     logo: logo.png
-    background: "#FFFFFF"
+    background: "#e8cd6d"
     foreground: "#000000"
     left:
       - href: about.qmd

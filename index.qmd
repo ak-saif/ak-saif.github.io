@@ -9,10 +9,10 @@ listing:
 page-layout: full
 ---
 
-Short notes on statistics, machine learning, and applied research — newest first.
-
 ```{=html}
 <div class="title-graphic">
-  <img src="img/title-graphic.svg" alt="An illustration of a normal distribution curve with scattered data points and a regression line">
+  <video autoplay loop muted playsinline>
+    <source src="video/tiny.mp4" type="video/mp4">
+  </video>
 </div>
 ```
