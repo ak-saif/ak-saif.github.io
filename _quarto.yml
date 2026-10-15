@@ -2,11 +2,10 @@ project:
   type: website
   output-dir: docs
   resources:
-    - CV.pdf
+    - files/Saif_Ali_Khan_CV.docx
     - photo.jpg
     - logo.png
     - video/tiny.mp4
-    
 website:
   title: "Dr. Saif Ali Khan"
   site-url: "https://ak-saif.github.io"
@@ -26,7 +25,7 @@ website:
     right:
       - icon: file-earmark-person
         text: CV
-        href: CV.pdf
+        href: files/Saif_Ali_Khan_CV.docx
         target: _blank
         aria-label: CV
       - icon: twitter-x
