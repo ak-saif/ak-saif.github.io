@@ -5,16 +5,508 @@ categories: [statistics, hypothesis testing]
 description: "A plain-language look at the most misunderstood number in applied research."
 ---
 
-A p-value answers one narrow question: *if the null hypothesis were true, how surprising
-is data this extreme or more extreme?* It is not the probability that the null hypothesis
-is true, and it is not the probability that your result happened by chance.
+# P-Value in Statistics: A Practical Guide to Understanding Statistical Significance
 
-A few things worth remembering when reporting or reading p-values:
+The **p-value** is one of the most widely used concepts in statistical inference. It appears in hypothesis testing, regression analysis, ANOVA, clinical research, machine learning evaluation, and many other areas of quantitative research.
 
-- **Statistical significance is not practical significance.** A tiny effect can be
-  "significant" with a large enough sample.
-- **p < 0.05 is a convention, not a law of nature.** Treat it as one piece of evidence,
-  not a verdict.
-- **Report effect sizes and confidence intervals alongside p-values** — the magnitude
-  and uncertainty usually matter more than the threshold.
+Despite its widespread use, the p-value is also one of the most frequently misunderstood statistical concepts. In this blog, we will understand what a p-value means, how it is calculated, how to interpret it, and what it **does not** tell us.
 
+## What is a p-value?
+
+A **p-value** is the probability of obtaining a test statistic at least as extreme as the one observed in the data, **assuming that the null hypothesis is true**.
+
+In simple terms:
+
+> **The p-value tells us how compatible our observed data are with the null hypothesis.**
+
+A smaller p-value indicates that the observed data would be relatively unusual if the null hypothesis were true.
+
+### A simple example
+
+Suppose a researcher wants to determine whether a new teaching method changes students' average examination scores.
+
+We formulate:
+
+* **Null hypothesis (\(H_0\))**: The new teaching method has no effect.
+* **Alternative hypothesis (\(H_1\))**: The new teaching method has an effect.
+
+After conducting a statistical test, suppose we obtain:
+
+$$
+p = 0.03
+$$
+
+This means that **if the null hypothesis were true**, the probability of observing results at least as extreme as those obtained is 3%.
+
+It does **not** mean that there is a 3% probability that the null hypothesis is true.
+
+---
+
+# Understanding the Null Hypothesis
+
+To understand p-values properly, we first need to understand the **null hypothesis**.
+
+The null hypothesis generally represents a position of:
+
+* no difference,
+* no association,
+* no effect, or
+* a specified population parameter.
+
+For example, suppose we want to compare the mean blood pressure of two groups.
+
+$$
+H_0: \mu_1 = \mu_2
+$$
+
+against
+
+$$
+H_1: \mu_1 \neq \mu_2
+$$
+
+The statistical test then evaluates how unusual the observed difference would be under the assumption that:
+
+$$
+\mu_1 = \mu_2
+$$
+
+The p-value is calculated under this assumption.
+
+---
+
+# How is a p-value interpreted?
+
+A commonly used significance level is:
+
+$$
+\alpha = 0.05
+$$
+
+The decision rule is:
+
+| P-value                | Conventional interpretation             |
+| ---------------------- | --------------------------------------- |
+| \(p < 0.01\)           | Strong evidence against \(H_0\)         |
+| \(0.01 \leq p < 0.05\) | Evidence against \(H_0\)                |
+| \(p \geq 0.05\)        | Insufficient evidence to reject \(H_0\) |
+
+However, it is important to use careful language.
+
+Instead of saying:
+
+> "The null hypothesis is true because \(p > 0.05\)."
+
+we should say:
+
+> "There is insufficient evidence to reject the null hypothesis at the 5% significance level."
+
+This distinction is fundamental.
+
+---
+
+# Example: Comparing Two Treatments
+
+Imagine a clinical study comparing two treatments for reducing blood pressure.
+
+The hypotheses are:
+
+$$
+H_0: \mu_A-\mu_B=0
+$$
+
+$$
+H_1: \mu_A-\mu_B\neq0
+$$
+
+Suppose the statistical test produces:
+
+$$
+p=0.018
+$$
+
+Using a significance level of 0.05:
+
+$$
+0.018 < 0.05
+$$
+
+Therefore, we reject \(H_0\).
+
+A suitable conclusion would be:
+
+> There is statistically significant evidence of a difference in mean blood pressure reduction between the two treatment groups at the 5% significance level.
+
+Notice that we say **"evidence of a difference"**, rather than claiming that the p-value itself proves the treatment is effective.
+
+---
+
+# What Does a p-value Actually Tell Us?
+
+Suppose:
+
+$$
+p=0.02
+$$
+
+The correct interpretation is approximately:
+
+> Assuming the null hypothesis is true, the probability of observing a result as extreme as, or more extreme than, the observed result is 2%.
+
+Mathematically:
+
+$$
+p=P(\text{data at least as extreme as observed}\mid H_0)
+$$
+
+The conditioning on \(H_0\) is crucial.
+
+---
+
+# What a p-value Does NOT Tell You
+
+Several common interpretations of p-values are incorrect.
+
+## 1. A p-value is not the probability that the null hypothesis is true
+
+Incorrect:
+
+> \(p=0.04\) means there is a 4% probability that \(H_0\) is true.
+
+This is not what a frequentist p-value represents.
+
+The p-value is:
+
+$$
+P(\text{data}\mid H_0)
+$$
+
+It is **not**:
+
+$$
+P(H_0\mid\text{data})
+$$
+
+These are different probabilities.
+
+---
+
+## 2. A p-value does not measure the size of an effect
+
+Suppose a study reports:
+
+$$
+p<0.001
+$$
+
+This indicates strong evidence against the null hypothesis under the specified testing framework.
+
+But it does not tell us whether the effect is:
+
+* tiny,
+* moderate, or
+* practically large.
+
+For example, with a very large sample, a very small difference can produce a very small p-value.
+
+Therefore, researchers should also report an **effect size** and preferably a **confidence interval**.
+
+---
+
+# Statistical Significance vs Practical Significance
+
+This distinction is particularly important in large datasets.
+
+Suppose a study involving 100,000 participants finds that a treatment lowers average blood pressure by only:
+
+$$
+0.5\text{ mmHg}
+$$
+
+and produces:
+
+$$
+p<0.001
+$$
+
+The result may be statistically significant, but whether a 0.5 mmHg reduction is **clinically meaningful** is a separate question.
+
+Thus:
+
+> **Statistical significance does not automatically imply practical or clinical significance.**
+
+A good research report should therefore consider:
+
+1. p-value,
+2. effect size,
+3. confidence interval,
+4. sample size, and
+5. subject-matter relevance.
+
+---
+
+# Why Does Sample Size Matter?
+
+The p-value is influenced by the sample size.
+
+Consider a simplified test statistic:
+
+$$
+z=\frac{\text{Observed difference}}{\text{Standard Error}}
+$$
+
+The standard error often decreases as sample size increases:
+
+$$
+SE \propto \frac{1}{\sqrt{n}}
+$$
+
+Therefore, increasing \(n\) can make the test statistic larger even when the actual effect remains small.
+
+This is one reason why:
+
+> **A small p-value does not necessarily mean a large effect.**
+
+---
+
+# One-Tailed vs Two-Tailed Tests
+
+The calculation of a p-value depends on the alternative hypothesis.
+
+### Two-tailed test
+
+Suppose:
+
+$$
+H_1:\mu\neq\mu_0
+$$
+
+We are interested in deviations in **both directions**.
+
+The p-value considers extreme values on both sides of the sampling distribution.
+
+### One-tailed test
+
+Suppose:
+
+$$
+H_1:\mu>\mu_0
+$$
+
+Now we are interested only in evidence that the parameter is greater than the hypothesized value.
+
+The p-value is calculated using the relevant tail of the distribution.
+
+### Important point
+
+The choice between a one-tailed and two-tailed test should generally be made **before examining the data**, based on the research question.
+
+Choosing a one-tailed test after seeing the results simply because it produces a smaller p-value can inflate the apparent evidence.
+
+---
+
+# P-Value and Confidence Intervals
+
+P-values and confidence intervals provide related but different information.
+
+Suppose a study estimates:
+
+$$
+\hat{\beta}=2.4
+$$
+
+with a 95% confidence interval:
+
+$$
+(0.8,\;4.0)
+$$
+
+If the null value is zero, the interval does not contain zero.
+
+For a corresponding two-sided hypothesis test under the usual assumptions, this is consistent with:
+
+$$
+p<0.05
+$$
+
+However, the confidence interval provides additional information because it shows a **range of parameter values compatible with the data under the confidence procedure**.
+
+This is why reporting only:
+
+> \(p=0.03\)
+
+is usually less informative than reporting:
+
+> Estimated effect = 2.4 units, 95% CI: 0.8–4.0, \(p=0.03\).
+
+---
+
+# P-Value in Regression Analysis
+
+P-values are also commonly reported for regression coefficients.
+
+Consider the model:
+
+$$
+Y=\beta_0+\beta_1X+\epsilon
+$$
+
+We may test:
+
+$$
+H_0:\beta_1=0
+$$
+
+against:
+
+$$
+H_1:\beta_1\neq0
+$$
+
+Suppose the regression output gives:
+
+| Predictor   | Coefficient | p-value |
+| ----------- | ----------: | ------: |
+| Study Hours |        2.35 |   0.012 |
+| Age         |        0.18 |   0.421 |
+
+At the 5% significance level, the p-value for **Study Hours** provides evidence against the null hypothesis that its coefficient is zero, whereas the p-value for **Age** does not provide sufficient evidence to reject that null hypothesis in this model.
+
+But again, the p-value alone does not tell us whether the estimated coefficient is substantively important.
+
+---
+
+# P-Value and Multiple Testing
+
+Suppose a researcher conducts 20 independent hypothesis tests, each using:
+
+$$
+\alpha=0.05
+$$
+
+Even when all null hypotheses are actually true, the probability of obtaining at least one apparently significant result can become substantial.
+
+This is why multiple testing requires careful consideration.
+
+Common approaches include:
+
+* Bonferroni correction,
+* Holm correction,
+* Benjamini–Hochberg procedure,
+* false discovery rate control.
+
+The appropriate method depends on the research design and inferential objective.
+
+---
+
+# Why "p < 0.05" Should Not Be Treated as a Magic Boundary
+
+The value 0.05 is widely used, but it is not a universal law of statistics.
+
+There is an important difference between:
+
+$$
+p=0.049
+$$
+
+and
+
+$$
+p=0.051
+$$
+
+Numerically, these values are extremely close, yet a rigid "significant/not significant" classification can make them appear radically different.
+
+A better approach is to report the **exact p-value** when appropriate and interpret it alongside the effect size and uncertainty.
+
+For example:
+
+> The estimated association was statistically compatible with a non-zero effect under the specified model (\(p=0.048\)).
+
+is generally more informative than simply saying:
+
+> The result was significant.
+
+---
+
+# Common Misconceptions About P-Values
+
+### Misconception 1
+
+**"p = 0.05 means the result has a 95% chance of being true."**
+
+❌ Incorrect.
+
+A p-value does not provide the probability that the research hypothesis is true.
+
+### Misconception 2
+
+**"p > 0.05 proves there is no effect."**
+
+❌ Incorrect.
+
+A non-significant result means that the data did not provide sufficient evidence to reject the null hypothesis under the chosen test.
+
+The study may simply have insufficient statistical power.
+
+### Misconception 3
+
+**"Smaller p-value means a larger effect."**
+
+❌ Incorrect.
+
+The p-value depends on several factors, including effect size, variability, sample size, and the statistical model.
+
+### Misconception 4
+
+**"p < 0.05 means the result is important."**
+
+❌ Not necessarily.
+
+Statistical significance and substantive importance are different concepts.
+
+---
+
+# A Better Way to Report P-Values
+
+Instead of writing:
+
+> The treatment was effective because \(p<0.05\).
+
+A more informative statement is:
+
+> The estimated treatment effect was 4.2 units (95% CI: 1.1–7.3), with evidence against the null hypothesis of no difference (\(p=0.008\)).
+
+This communicates:
+
+* the estimated effect,
+* uncertainty,
+* and the statistical evidence.
+
+---
+
+# Key Takeaways
+
+The p-value is an important tool in statistical inference, but it should not be interpreted in isolation.
+
+Remember these five points:
+
+1. **A p-value is calculated under the assumption that the null hypothesis is true.**
+2. **It measures how unusual the observed data are under that assumption.**
+3. **A small p-value provides evidence against the null hypothesis; it does not prove the alternative hypothesis.**
+4. **A p-value does not measure effect size or practical importance.**
+5. **P-values should ideally be interpreted alongside effect sizes, confidence intervals, study design, sample size, and subject-matter knowledge.**
+
+### Final Thought
+
+The p-value is neither a "truth meter" nor a measure of how important a finding is. It is one component of statistical evidence.
+
+Good statistical inference goes beyond asking:
+
+> **"Is the p-value less than 0.05?"**
+
+and instead asks:
+
+> **"What is the estimated effect, how uncertain is it, how compatible are the data with the relevant hypotheses, and is the observed effect meaningful in the context of the research question?"**
+
+That shift—from **threshold-based thinking** to **evidence-based interpretation**—is at the heart of sound statistical reasoning.
