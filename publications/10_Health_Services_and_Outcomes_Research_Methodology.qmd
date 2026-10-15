@@ -2,14 +2,14 @@
 title: "Estimation of population mean using multivariate stratified sampling: an analysis of child mortality and parental education"
 author: "Khan, S.A., Verma, M.K."
 date: 2026-10-05
-categories: [Auxiliary variables, Cramer’s rule,Post-stratification,Percentage Relative Efficiency]
+categories: [Auxiliary variable, Cramer’s rule,Post-stratification,Percentage Relative Efficiency]
 ---
 
 ::: {.venue-line}
-Health Services and Outcomes Research Methodology, 76, 104207
+Health Services and Outcomes Research Methodology
 :::
 
-**DOI:** [10.1016/j.bcab.2026.104207](https://doi.org/10.1016/j.bcab.2026.104207)
+**DOI:** [10.1007/s10742-026-00393-w](https://doi.org/10.1007/s10742-026-00393-w)
 
 **Abstract**
 

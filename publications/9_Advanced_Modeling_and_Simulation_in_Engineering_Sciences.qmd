@@ -2,7 +2,7 @@
 title: "A robust population mean estimation method in stratified sampling using auxiliary attributes under real and simulated populations"
 author: "Khan, S.A., Verma, M.K."
 date: 2026-09-21
-categories: [Auxiliary variable, Auxiliary attribute, Percentage relative efficiency]
+categories: [Auxiliary variable, Auxiliary attribute, Percentage Relative Efficiency]
 ---
 
 ::: {.venue-line}
