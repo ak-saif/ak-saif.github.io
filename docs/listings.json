@@ -1,7 +1,11 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
+    "listing": "/blogs.html",
+    "items": [
+      "/posts/p-values/index.html",
+      "/posts/time-series-basics/index.html",
+      "/posts/kmeans-clustering/index.html"
+    ]
   },
   {
     "listing": "/publications.html",

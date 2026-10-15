@@ -1,0 +1,18 @@
+---
+title: "Statistics Demystified"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: true
+page-layout: full
+---
+
+```{=html}
+<div class="title-graphic">
+  <video autoplay loop muted playsinline>
+    <source src="video/tiny.mp4" type="video/mp4">
+  </video>
+</div>
+```
