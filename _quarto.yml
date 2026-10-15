@@ -21,6 +21,7 @@ website:
       - href: background.qmd
       - href: publications.qmd
       - href: talks.qmd
+        text: Talks & Presentation
       - href: videos.qmd
     right:
       - icon: file-earmark-person
