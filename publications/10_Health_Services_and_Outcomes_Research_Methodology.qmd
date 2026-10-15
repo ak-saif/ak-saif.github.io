@@ -1,0 +1,16 @@
+---
+title: "Estimation of population mean using multivariate stratified sampling: an analysis of child mortality and parental education"
+author: "Khan, S.A., Verma, M.K."
+date: 2026-10-05
+categories: [Auxiliary variables, Cramer’s rule,Post-stratification,Percentage Relative Efficiency]
+---
+
+::: {.venue-line}
+Health Services and Outcomes Research Methodology, 76, 104207
+:::
+
+**DOI:** [10.1016/j.bcab.2026.104207](https://doi.org/10.1016/j.bcab.2026.104207)
+
+**Abstract**
+
+Accurate estimation of population means is an important objective in survey sampling, as it provides reliable information for decision-making and policy formulation. To improve estimation efficiency, this study proposes a new estimator for the population mean in stratified random sampling by incorporating two auxiliary variables along with their covariance structure. The proposed estimator is developed using a nonlinear approach, and its statistical properties are derived using first-order approximation techniques. The optimum values of the unknown parameters are obtained through Cramer’s Rule. The efficiency of the proposed estimator is assessed using mean squared error (MSE) and percentage relative efficiency (PRE) and compared with several existing estimators. Both theoretical and empirical results show that the proposed estimator consistently outperforms the competing estimators by producing lower MSE and higher PRE values. To further examine its stability, simulation studies and sensitivity analyses are conducted under different correlation structures, including both negative and positive correlations. The findings demonstrate that the proposed estimator remains robust and efficient across varying conditions. Overall, the study highlights that the effective use of auxiliary information can substantially improve the accuracy and reliability of population mean estimation in stratified random sampling.

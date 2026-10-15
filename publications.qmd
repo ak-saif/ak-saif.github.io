@@ -10,5 +10,3 @@ listing:
   feed: false
 page-layout: full
 ---
-
-Click any title for the abstract and DOI. Use the categories on the right to filter by topic.

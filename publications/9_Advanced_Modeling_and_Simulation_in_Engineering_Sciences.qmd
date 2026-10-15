@@ -1,0 +1,16 @@
+---
+title: "A robust population mean estimation method in stratified sampling using auxiliary attributes under real and simulated populations"
+author: "Khan, S.A., Verma, M.K."
+date: 2026-09-21
+categories: [Auxiliary variable, Auxiliary attribute, Percentage relative efficiency]
+---
+
+::: {.venue-line}
+Advanced Modeling and Simulation in Engineering Sciences, 13, 20
+:::
+
+**DOI:** [10.1186/s40323-026-00339-4](https://doi.org/10.1186/s40323-026-00339-4)
+
+**Abstract**
+
+This study proposes a novel improved ratio-type estimator for efficient estimation of the population mean in stratified sampling by integrating auxiliary attribute information through a unified nonlinear framework. Unlike conventional ratio, product, and exponential-type estimators, the proposed estimator combines these estimation strategies within a single flexible formulation, allowing it to adapt to different correlation structures and improve estimation efficiency. The mean squared error (MSE) of the proposed estimator is derived up to the first order of approximation, and the optimum parameter values that minimize the MSE are obtained analytically. The estimator's performance is evaluated using percentage relative efficiency (PRE) and compared with existing estimators reported in the literature. Numerical illustrations and extensive Monte Carlo simulation studies demonstrate consistent efficiency gains across diverse sampling scenarios. The practical applicability of the proposed estimator is further validated using a real-world apple production dataset, where apple yield is treated as the study variable and the number of apple trees as the auxiliary attribute. Both theoretical and empirical results confirm that the proposed estimator provides more precise and robust population mean estimates than existing approaches under stratified sampling.
