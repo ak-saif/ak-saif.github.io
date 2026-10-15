@@ -22,7 +22,15 @@ body { line-height: 1.65; }
   letter-spacing: 0.02em;
 }
 .navbar-brand-container { gap: 10px; }
-.navbar-logo { border-radius: 50%; }
+.navbar-logo {
+  background: #ffffff;
+  border-radius: 50%;      /* makes it a circle */
+  padding: 1px;            /* white ring around the logo */
+  width: 25px;
+  height: 40px;
+  object-fit: contain;     /* keeps the logo from stretching */
+  margin-right: 8px;
+}
 
 // eyebrow-style page kicker, used via a div in .qmd content
 .eyebrow {

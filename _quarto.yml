@@ -13,15 +13,15 @@ website:
   description: "Assistant Professor — infectious disease modeling with statistics & machine learning"
   navbar:
     logo: logo.png
-    background: "#e8cd6d"
-    foreground: "#000000"
+    background: "#1f3a5f"
+    foreground: "#ffffff"
     left:
-      - href: blogs.qmd
-        text: Blogs
       - href: background.qmd
       - href: publications.qmd
       - href: talks.qmd
         text: Talks & Presentation
+      - href: blogs.qmd
+        text: Blogs
       - href: videos.qmd
     right:
       - icon: file-earmark-person
