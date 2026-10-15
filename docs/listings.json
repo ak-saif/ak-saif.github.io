@@ -2,9 +2,9 @@
   {
     "listing": "/blogs.html",
     "items": [
-      "/posts/p-values/index.html",
-      "/posts/time-series-basics/index.html",
-      "/posts/kmeans-clustering/index.html"
+      "/posts/p-values/blogs.html",
+      "/posts/time-series-basics/blogs.html",
+      "/posts/kmeans-clustering/blogs.html"
     ]
   },
   {
@@ -23,9 +23,9 @@
   {
     "listing": "/writing.html",
     "items": [
-      "/posts/p-values/index.html",
-      "/posts/time-series-basics/index.html",
-      "/posts/kmeans-clustering/index.html"
+      "/posts/p-values/blogs.html",
+      "/posts/time-series-basics/blogs.html",
+      "/posts/kmeans-clustering/blogs.html"
     ]
   }
 ]

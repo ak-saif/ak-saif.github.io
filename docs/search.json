@@ -56,36 +56,36 @@
     "text": "Biocatalysis and Agricultural Biotechnology, 76, 104207\n\nDOI: 10.1016/j.bcab.2026.104207\nAbstract\nBoth biotic and abiotic stresses induce the production of reactive oxygen species (ROS), compromising plant physiology. However, the effects of microwave radiation on plant physiology remain poorly understood. We hypothesised that low-dose microwave radiation exposure would induce ROS accumulation in the alkaloid-producing plant Datura innoxia. D. innoxia plants were exposed to microwave radiation (2.45 GHz) for 0, 1, 2, 4, and 8 s, and physiological responses were profiled across six parameter axes 48 h post-exposure. The 8-s exposure raised leaf surface temperature to ~52→ C and proved lethal, whereas sub-lethal exposures (↑4 s; ↑35.6→ C) elicited a coordinated stimulatory response. A 4-second treatment increased chlorophyll (~36%) and electron transport rate (~70%) without impairing PSII integrity. Energy partitioning shifted from passive (Y(NO)) to regulated (Y(NPQ)) thermal dissipation as exposure dose increased, with the highest non-photochemical quenching at 4 s. A transient H2O2 burst at 2 s, visualised by DAB staining and accompanied by a ~16% phenolic increase, preceded the photoprotective activation at 4 s. Malondialdehyde content rose monotonically with dose but remained within physiological range. Light microscopy revealed widened stomatal apertures at 2 s and prominently visible guard-cell chloroplasts at 4 s. Collectively, these findings indicate that brief microwave exposure operates as a non-damaging physical elicitor within a narrow dose window (↑4 s), offering a novel non-chemical avenue for modulating photosynthesis and oxidative status in medicinal plants. The sharp threshold between 4 s (stimulatory) and 8 s (lethal) underscores the dosimetric precision required to exploit microwave eustress in biotechnological applications."
   },
   {
-    "objectID": "posts/kmeans-clustering/index.html",
-    "href": "posts/kmeans-clustering/index.html",
+    "objectID": "posts/kmeans-clustering/blogs.html",
+    "href": "posts/kmeans-clustering/blogs.html",
     "title": "K-means Clustering, Without the Jargon",
     "section": "",
     "text": "K-means clustering groups data points by repeating two simple steps until nothing changes:\n\nAssign each point to its nearest cluster center.\nUpdate each cluster center to the average of the points assigned to it.\n\nThat’s the whole algorithm. The tricky parts in practice are usually:\n\nChoosing k (the number of clusters) — the “elbow method” and silhouette scores are common starting points, but domain knowledge often matters more.\nScaling your features first — K-means uses distance, so a variable measured in the thousands will dominate one measured in decimals unless you standardize.\nInitialization matters — K-means++ initialization avoids a lot of the bad-luck clustering that plain random starts can produce."
   },
   {
-    "objectID": "posts/p-values/index.html",
-    "href": "posts/p-values/index.html",
+    "objectID": "posts/p-values/blogs.html",
+    "href": "posts/p-values/blogs.html",
     "title": "What a p-value Actually Tells You",
     "section": "",
     "text": "The p-value is one of the most widely used concepts in statistical inference. It appears in hypothesis testing, regression analysis, ANOVA, clinical research, machine learning evaluation, and many other areas of quantitative research.\nDespite its widespread use, the p-value is also one of the most frequently misunderstood statistical concepts. In this blog, we will understand what a p-value means, how it is calculated, how to interpret it, and what it does not tell us.\n\n\nA p-value is the probability of obtaining a test statistic at least as extreme as the one observed in the data, assuming that the null hypothesis is true.\nIn simple terms:\n\nThe p-value tells us how compatible our observed data are with the null hypothesis.\n\nA smaller p-value indicates that the observed data would be relatively unusual if the null hypothesis were true.\n\n\nSuppose a researcher wants to determine whether a new teaching method changes students’ average examination scores.\nWe formulate:\n\nNull hypothesis ((H_0)): The new teaching method has no effect.\nAlternative hypothesis ((H_1)): The new teaching method has an effect.\n\nAfter conducting a statistical test, suppose we obtain:\n\\[\np = 0.03\n\\]\nThis means that if the null hypothesis were true, the probability of observing results at least as extreme as those obtained is 3%.\nIt does not mean that there is a 3% probability that the null hypothesis is true."
   },
   {
-    "objectID": "posts/p-values/index.html#what-is-a-p-value",
-    "href": "posts/p-values/index.html#what-is-a-p-value",
+    "objectID": "posts/p-values/blogs.html#what-is-a-p-value",
+    "href": "posts/p-values/blogs.html#what-is-a-p-value",
     "title": "What a p-value Actually Tells You",
     "section": "",
     "text": "A p-value is the probability of obtaining a test statistic at least as extreme as the one observed in the data, assuming that the null hypothesis is true.\nIn simple terms:\n\nThe p-value tells us how compatible our observed data are with the null hypothesis.\n\nA smaller p-value indicates that the observed data would be relatively unusual if the null hypothesis were true.\n\n\nSuppose a researcher wants to determine whether a new teaching method changes students’ average examination scores.\nWe formulate:\n\nNull hypothesis ((H_0)): The new teaching method has no effect.\nAlternative hypothesis ((H_1)): The new teaching method has an effect.\n\nAfter conducting a statistical test, suppose we obtain:\n\\[\np = 0.03\n\\]\nThis means that if the null hypothesis were true, the probability of observing results at least as extreme as those obtained is 3%.\nIt does not mean that there is a 3% probability that the null hypothesis is true."
   },
   {
-    "objectID": "posts/p-values/index.html#a-p-value-is-not-the-probability-that-the-null-hypothesis-is-true",
-    "href": "posts/p-values/index.html#a-p-value-is-not-the-probability-that-the-null-hypothesis-is-true",
+    "objectID": "posts/p-values/blogs.html#a-p-value-is-not-the-probability-that-the-null-hypothesis-is-true",
+    "href": "posts/p-values/blogs.html#a-p-value-is-not-the-probability-that-the-null-hypothesis-is-true",
     "title": "What a p-value Actually Tells You",
     "section": "1. A p-value is not the probability that the null hypothesis is true",
     "text": "1. A p-value is not the probability that the null hypothesis is true\nIncorrect:\n\n(p=0.04) means there is a 4% probability that (H_0) is true.\n\nThis is not what a frequentist p-value represents.\nThe p-value is:\n\\[\nP(\\text{data}\\mid H_0)\n\\]\nIt is not:\n\\[\nP(H_0\\mid\\text{data})\n\\]\nThese are different probabilities."
   },
   {
-    "objectID": "posts/p-values/index.html#a-p-value-does-not-measure-the-size-of-an-effect",
-    "href": "posts/p-values/index.html#a-p-value-does-not-measure-the-size-of-an-effect",
+    "objectID": "posts/p-values/blogs.html#a-p-value-does-not-measure-the-size-of-an-effect",
+    "href": "posts/p-values/blogs.html#a-p-value-does-not-measure-the-size-of-an-effect",
     "title": "What a p-value Actually Tells You",
     "section": "2. A p-value does not measure the size of an effect",
     "text": "2. A p-value does not measure the size of an effect\nSuppose a study reports:\n\\[\np&lt;0.001\n\\]\nThis indicates strong evidence against the null hypothesis under the specified testing framework.\nBut it does not tell us whether the effect is:\n\ntiny,\nmoderate, or\npractically large.\n\nFor example, with a very large sample, a very small difference can produce a very small p-value.\nTherefore, researchers should also report an effect size and preferably a confidence interval."
@@ -98,8 +98,8 @@
     "text": "Education\n\n\n\n\n\n\n\n\nJul 2022 – Nov 2025\nPh.D. in Statistics\nBabasaheb Bhimrao Ambedkar University, Lucknow\nThesis: Infectious Disease Modeling Through Distinct Statistical & Machine Learning Techniques\n\n\n2018 – 2020\nM.Sc. in Statistics\nAligarh Muslim University, Aligarh · GPA 7.69/10\nDissertation: Image Classification of Skin Lesion\n\n\n2015 – 2018\nB.Sc. (Hons) in Statistics\nAligarh Muslim University, Aligarh · GPA 7.84/10\nDissertation: Effectiveness of Choice-Based Credit System (Survey Report)\n\n\n\n\nExperience\n\n\n\n\n\n\n\n\nNov 2025 – present\nAssistant Professor\nDirectorate of Online Education, Manipal Academy of Higher Education, Manipal\n\n\nJun 2023 – Oct 2024\nResearch Assistant (UPCST-funded project)\nDepartment of Statistics, BBAU, Lucknow\nProject: Statistical modeling for COVID-19 spread using different approaches. Designed compartmental and statistical models for COVID-19 transmission; applied time series and ML models for prediction."
   },
   {
-    "objectID": "posts/time-series-basics/index.html",
-    "href": "posts/time-series-basics/index.html",
+    "objectID": "posts/time-series-basics/blogs.html",
+    "href": "posts/time-series-basics/blogs.html",
     "title": "Time Series Forecasting: Where to Start",
     "section": "",
     "text": "Most time series methods, from ARIMA to gradient-boosted trees, are trying to separate a series into a few recurring pieces:\n\nTrend — the long-run direction.\nSeasonality — patterns that repeat at fixed intervals (weekly, yearly).\nNoise — what’s left after trend and seasonality are accounted for.\n\nOnce a series is decomposed this way, forecasting becomes a question of which piece is hardest to predict for your data — and that’s usually what determines whether a simple model (like exponential smoothing) will do, or whether you need something that can learn nonlinear structure (like an ML model with engineered lag features)."

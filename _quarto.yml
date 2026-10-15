@@ -16,16 +16,12 @@ website:
     background: "#e8cd6d"
     foreground: "#000000"
     left:
-      - href: about.qmd
-        text: About
+      - href: blogs.qmd
+        text: Blogs
       - href: background.qmd
-        text: Background
       - href: publications.qmd
-        text: Publications
       - href: talks.qmd
-        text: Talks
       - href: videos.qmd
-        text: Videos
     right:
       - icon: file-earmark-person
         text: CV
